@@ -1,0 +1,14 @@
+{
+  "headline_threshold": 0.55,
+  "chance_cross_seed_cosine": 0.3452,
+  "mean_cross_seed_cosine": 0.3452,
+  "anchor_agreement_mean": 0.8796,
+  "qualification_rule": {
+    "n_supporting_seeds": ">= 4 of 6",
+    "seed_impure": "must be False",
+    "stable_core_size": ">= 4 terms present in >=4 members' top 20",
+    "mean_top25_doc_jaccard": ">= 0.15",
+    "term_lift_vs_corpus": ">= 2.0 (not generic vocabulary)"
+  },
+  "n_qualifying": 1
+}

@@ -1,0 +1,12 @@
+metric,value
+papers in corpus,987.0
+papers with non-null Authors,987.0
+pct papers with usable author string,100.0
+total author mentions,3483.0
+distinct normalised author keys,2299.0
+keys with >1 distinct raw spelling,135.0
+pct of keys that are ambiguous,5.9
+pct of mentions affected by ambiguity,16.3
+keys with only a single given initial,2299.0
+ORCID / affiliation / email fields available,0.0
+repeat authors in 2019-2025 window,548.0

@@ -1,0 +1,13 @@
+topic,label,doc_slope,cr1_ci_low,cr1_ci_high,cr1_ci_excludes_zero,p_wild_cluster,p_wild_cluster_fdr,p_wild_cluster_sig_fdr,p_within_journal_perm_fdr,p_within_journal_perm_sig_fdr,r2_B2_tailprop_WITHDRAWN
+4,Pricing and Channel Strategy,0.016185,0.006952,0.025419,True,0.0098,0.1176,False,0.0006,True,0.001
+8,Sustainable Adoption and Firm Performance,0.010761,0.001652,0.019871,True,0.0434,0.2604,False,0.033,True,0.028
+10,"Governance, Capabilities and Ecosystems",0.001417,-0.005508,0.008343,False,0.7124,0.85488,False,0.925,False,0.418
+11,"NFTs, Marketing and Research Agenda",0.000897,-0.003042,0.004836,False,0.6647,0.85488,False,0.75552,False,0.1475
+2,Supply Chain Operations and Integration,0.000331,-0.009631,0.010293,False,0.9476,0.9476,False,0.925,False,0.6615
+3,"FinTech, Payments and Financial Markets",-0.000917,-0.004612,0.002779,False,0.6299,0.85488,False,0.62325,False,0.886
+1,Empirical Market and Disclosure Effects,-0.001033,-0.009813,0.007746,False,0.8287,0.90404,False,0.75552,False,0.901
+12,"Risk Management, Accounting and Credit",-0.001931,-0.003862,-0.0,False,0.1041,0.30096,False,0.12,False,0.174
+6,Cryptocurrency Markets and Token Pricing,-0.003913,-0.008934,0.001108,False,0.165,0.33,False,0.1082,False,0.7085
+9,"Trust, Transparency and Sector Applications",-0.006659,-0.014042,0.000724,False,0.1254,0.30096,False,0.0744,False,0.0785
+7,Smart Contract Protocols and Schemes,-0.007421,-0.015062,0.00022,False,0.0952,0.30096,False,0.0024,True,0.1615
+5,System Architecture and Security Design,-0.007718,-0.019076,0.00364,False,0.2635,0.45171,False,0.0006,True,0.3125

@@ -1,0 +1,7 @@
+full_consensus_topic,basin_only_topic,cosine_full_vs_basin,full_min_within,basin_min_within
+1,1,0.9894,0.5743,1.0
+2,2,0.9982,0.9334,1.0
+3,3,1.0,0.9993,1.0
+4,4,0.9965,0.8719,1.0
+5,5,0.9997,0.9877,1.0
+6,6,0.9895,0.5804,1.0

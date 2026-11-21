@@ -1,0 +1,12 @@
+{
+  "procedure": "anchor-based Hungarian, seed-uniqueness by construction",
+  "anchor_used_for_reference": 42,
+  "mean_co_membership_across_anchors": 0.4758,
+  "qualification_rule": {
+    "stable_core_size": ">= 4",
+    "mean_top25_doc_jaccard": ">= 0.15",
+    "term_lift_vs_corpus": ">= 2.0",
+    "min_within_cosine": ">= 0.50"
+  },
+  "n_qualifying": 1
+}

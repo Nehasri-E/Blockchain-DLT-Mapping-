@@ -1,0 +1,9 @@
+{
+  "alignment": "L2-normalised cosine over the shared 3,335-term vocabulary",
+  "convergent_validity_rule": {
+    "cosine": ">= 0.50",
+    "term_core_jaccard": ">= 0.30",
+    "top25_paper_jaccard": ">= 0.20"
+  },
+  "n_convergent": 3
+}

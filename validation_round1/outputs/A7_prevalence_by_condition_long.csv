@@ -1,0 +1,361 @@
+condition,seed,ref_topic,ref_label,prevalence,baseline_prevalence,delta_vs_baseline
+A,42,1,Empirical Market and Disclosure Effects,0.04507,0.08089,-0.03583
+A,42,2,Supply Chain Operations and Integration,0.2036,0.13012,0.07347
+A,42,3,"FinTech, Payments and Financial Markets",0.05501,0.03676,0.01826
+A,42,4,Pricing and Channel Strategy,0.1437,0.14162,0.00208
+A,42,5,System Architecture and Security Design,0.09013,0.05255,0.03758
+A,42,6,Cryptocurrency Markets and Token Pricing,0.06031,0.0858,-0.02549
+A,42,7,Smart Contract Protocols and Schemes,0.07748,0.06492,0.01256
+A,42,8,Sustainable Adoption and Firm Performance,0.08616,0.11527,-0.0291
+A,42,9,"Trust, Transparency and Sector Applications",0.0696,0.09069,-0.02109
+A,42,10,"Governance, Capabilities and Ecosystems",0.06586,0.09459,-0.02872
+A,42,11,"NFTs, Marketing and Research Agenda",0.07005,0.08674,-0.0167
+A,42,12,"Risk Management, Accounting and Credit",0.03302,0.02004,0.01297
+A,7,1,Empirical Market and Disclosure Effects,0.06181,0.08089,-0.01909
+A,7,2,Supply Chain Operations and Integration,0.0733,0.13012,-0.05682
+A,7,3,"FinTech, Payments and Financial Markets",0.06857,0.03676,0.03181
+A,7,4,Pricing and Channel Strategy,0.13484,0.14162,-0.00679
+A,7,5,System Architecture and Security Design,0.0506,0.05255,-0.00195
+A,7,6,Cryptocurrency Markets and Token Pricing,0.05375,0.0858,-0.03205
+A,7,7,Smart Contract Protocols and Schemes,0.02566,0.06492,-0.03926
+A,7,8,Sustainable Adoption and Firm Performance,0.24028,0.11527,0.12501
+A,7,9,"Trust, Transparency and Sector Applications",0.13926,0.09069,0.04857
+A,7,10,"Governance, Capabilities and Ecosystems",0.04028,0.09459,-0.05431
+A,7,11,"NFTs, Marketing and Research Agenda",0.022,0.08674,-0.06474
+A,7,12,"Risk Management, Accounting and Credit",0.08967,0.02004,0.06962
+A,2024,1,Empirical Market and Disclosure Effects,0.04398,0.08089,-0.03692
+A,2024,2,Supply Chain Operations and Integration,0.19155,0.13012,0.06143
+A,2024,3,"FinTech, Payments and Financial Markets",0.07335,0.03676,0.03659
+A,2024,4,Pricing and Channel Strategy,0.09438,0.14162,-0.04725
+A,2024,5,System Architecture and Security Design,0.13164,0.05255,0.07909
+A,2024,6,Cryptocurrency Markets and Token Pricing,0.07668,0.0858,-0.00912
+A,2024,7,Smart Contract Protocols and Schemes,0.10928,0.06492,0.04436
+A,2024,8,Sustainable Adoption and Firm Performance,0.0386,0.11527,-0.07666
+A,2024,9,"Trust, Transparency and Sector Applications",0.03278,0.09069,-0.05792
+A,2024,10,"Governance, Capabilities and Ecosystems",0.09887,0.09459,0.00428
+A,2024,11,"NFTs, Marketing and Research Agenda",0.05477,0.08674,-0.03197
+A,2024,12,"Risk Management, Accounting and Credit",0.05414,0.02004,0.0341
+A,123,1,Empirical Market and Disclosure Effects,0.08683,0.08089,0.00593
+A,123,2,Supply Chain Operations and Integration,0.10192,0.13012,-0.0282
+A,123,3,"FinTech, Payments and Financial Markets",0.10324,0.03676,0.06648
+A,123,4,Pricing and Channel Strategy,0.11591,0.14162,-0.02572
+A,123,5,System Architecture and Security Design,0.06364,0.05255,0.01109
+A,123,6,Cryptocurrency Markets and Token Pricing,0.07659,0.0858,-0.00921
+A,123,7,Smart Contract Protocols and Schemes,0.04001,0.06492,-0.02491
+A,123,8,Sustainable Adoption and Firm Performance,0.14217,0.11527,0.02691
+A,123,9,"Trust, Transparency and Sector Applications",0.08582,0.09069,-0.00488
+A,123,10,"Governance, Capabilities and Ecosystems",0.11544,0.09459,0.02085
+A,123,11,"NFTs, Marketing and Research Agenda",0.02137,0.08674,-0.06537
+A,123,12,"Risk Management, Accounting and Credit",0.04706,0.02004,0.02702
+A,777,1,Empirical Market and Disclosure Effects,0.07695,0.08089,-0.00395
+A,777,2,Supply Chain Operations and Integration,0.10684,0.13012,-0.02328
+A,777,3,"FinTech, Payments and Financial Markets",0.05578,0.03676,0.01902
+A,777,4,Pricing and Channel Strategy,0.11412,0.14162,-0.0275
+A,777,5,System Architecture and Security Design,0.11191,0.05255,0.05936
+A,777,6,Cryptocurrency Markets and Token Pricing,0.06728,0.0858,-0.01852
+A,777,7,Smart Contract Protocols and Schemes,0.06406,0.06492,-0.00086
+A,777,8,Sustainable Adoption and Firm Performance,0.19861,0.11527,0.08334
+A,777,9,"Trust, Transparency and Sector Applications",0.03026,0.09069,-0.06043
+A,777,10,"Governance, Capabilities and Ecosystems",0.06663,0.09459,-0.02796
+A,777,11,"NFTs, Marketing and Research Agenda",0.03205,0.08674,-0.05469
+A,777,12,"Risk Management, Accounting and Credit",0.07551,0.02004,0.05547
+A,31337,1,Empirical Market and Disclosure Effects,0.05548,0.08089,-0.02542
+A,31337,2,Supply Chain Operations and Integration,0.12337,0.13012,-0.00675
+A,31337,3,"FinTech, Payments and Financial Markets",0.02445,0.03676,-0.01231
+A,31337,4,Pricing and Channel Strategy,0.08231,0.14162,-0.05932
+A,31337,5,System Architecture and Security Design,0.07169,0.05255,0.01914
+A,31337,6,Cryptocurrency Markets and Token Pricing,0.10629,0.0858,0.02049
+A,31337,7,Smart Contract Protocols and Schemes,0.10841,0.06492,0.04349
+A,31337,8,Sustainable Adoption and Firm Performance,0.16769,0.11527,0.05242
+A,31337,9,"Trust, Transparency and Sector Applications",0.10217,0.09069,0.01148
+A,31337,10,"Governance, Capabilities and Ecosystems",0.0701,0.09459,-0.02449
+A,31337,11,"NFTs, Marketing and Research Agenda",0.07009,0.08674,-0.01665
+A,31337,12,"Risk Management, Accounting and Credit",0.01796,0.02004,-0.00208
+B250,42,1,Empirical Market and Disclosure Effects,0.08089,0.08089,0.0
+B250,42,2,Supply Chain Operations and Integration,0.13012,0.13012,0.0
+B250,42,3,"FinTech, Payments and Financial Markets",0.03676,0.03676,0.0
+B250,42,4,Pricing and Channel Strategy,0.14162,0.14162,0.0
+B250,42,5,System Architecture and Security Design,0.05255,0.05255,0.0
+B250,42,6,Cryptocurrency Markets and Token Pricing,0.0858,0.0858,0.0
+B250,42,7,Smart Contract Protocols and Schemes,0.06492,0.06492,0.0
+B250,42,8,Sustainable Adoption and Firm Performance,0.11527,0.11527,0.0
+B250,42,9,"Trust, Transparency and Sector Applications",0.09069,0.09069,0.0
+B250,42,10,"Governance, Capabilities and Ecosystems",0.09459,0.09459,0.0
+B250,42,11,"NFTs, Marketing and Research Agenda",0.08674,0.08674,0.0
+B250,42,12,"Risk Management, Accounting and Credit",0.02004,0.02004,0.0
+B250,7,1,Empirical Market and Disclosure Effects,0.06556,0.08089,-0.01533
+B250,7,2,Supply Chain Operations and Integration,0.10078,0.13012,-0.02934
+B250,7,3,"FinTech, Payments and Financial Markets",0.05905,0.03676,0.02229
+B250,7,4,Pricing and Channel Strategy,0.12045,0.14162,-0.02118
+B250,7,5,System Architecture and Security Design,0.0642,0.05255,0.01165
+B250,7,6,Cryptocurrency Markets and Token Pricing,0.05096,0.0858,-0.03484
+B250,7,7,Smart Contract Protocols and Schemes,0.03765,0.06492,-0.02726
+B250,7,8,Sustainable Adoption and Firm Performance,0.06947,0.11527,-0.0458
+B250,7,9,"Trust, Transparency and Sector Applications",0.32245,0.09069,0.23175
+B250,7,10,"Governance, Capabilities and Ecosystems",0.02125,0.09459,-0.07334
+B250,7,11,"NFTs, Marketing and Research Agenda",0.05927,0.08674,-0.02747
+B250,7,12,"Risk Management, Accounting and Credit",0.02892,0.02004,0.00888
+B250,2024,1,Empirical Market and Disclosure Effects,0.01855,0.08089,-0.06234
+B250,2024,2,Supply Chain Operations and Integration,0.16931,0.13012,0.03919
+B250,2024,3,"FinTech, Payments and Financial Markets",0.08468,0.03676,0.04793
+B250,2024,4,Pricing and Channel Strategy,0.12905,0.14162,-0.01258
+B250,2024,5,System Architecture and Security Design,0.11509,0.05255,0.06253
+B250,2024,6,Cryptocurrency Markets and Token Pricing,0.0909,0.0858,0.0051
+B250,2024,7,Smart Contract Protocols and Schemes,0.02821,0.06492,-0.03671
+B250,2024,8,Sustainable Adoption and Firm Performance,0.08319,0.11527,-0.03208
+B250,2024,9,"Trust, Transparency and Sector Applications",0.05569,0.09069,-0.03501
+B250,2024,10,"Governance, Capabilities and Ecosystems",0.03022,0.09459,-0.06436
+B250,2024,11,"NFTs, Marketing and Research Agenda",0.1569,0.08674,0.07016
+B250,2024,12,"Risk Management, Accounting and Credit",0.0382,0.02004,0.01816
+B250,123,1,Empirical Market and Disclosure Effects,0.04069,0.08089,-0.0402
+B250,123,2,Supply Chain Operations and Integration,0.06235,0.13012,-0.06777
+B250,123,3,"FinTech, Payments and Financial Markets",0.08516,0.03676,0.0484
+B250,123,4,Pricing and Channel Strategy,0.05948,0.14162,-0.08214
+B250,123,5,System Architecture and Security Design,0.09195,0.05255,0.0394
+B250,123,6,Cryptocurrency Markets and Token Pricing,0.04221,0.0858,-0.04359
+B250,123,7,Smart Contract Protocols and Schemes,0.13724,0.06492,0.07232
+B250,123,8,Sustainable Adoption and Firm Performance,0.0574,0.11527,-0.05786
+B250,123,9,"Trust, Transparency and Sector Applications",0.12808,0.09069,0.03738
+B250,123,10,"Governance, Capabilities and Ecosystems",0.05532,0.09459,-0.03926
+B250,123,11,"NFTs, Marketing and Research Agenda",0.1828,0.08674,0.09606
+B250,123,12,"Risk Management, Accounting and Credit",0.05732,0.02004,0.03727
+B250,777,1,Empirical Market and Disclosure Effects,0.0491,0.08089,-0.0318
+B250,777,2,Supply Chain Operations and Integration,0.10789,0.13012,-0.02223
+B250,777,3,"FinTech, Payments and Financial Markets",0.0638,0.03676,0.02704
+B250,777,4,Pricing and Channel Strategy,0.12176,0.14162,-0.01986
+B250,777,5,System Architecture and Security Design,0.06282,0.05255,0.01027
+B250,777,6,Cryptocurrency Markets and Token Pricing,0.03836,0.0858,-0.04744
+B250,777,7,Smart Contract Protocols and Schemes,0.11783,0.06492,0.05292
+B250,777,8,Sustainable Adoption and Firm Performance,0.1289,0.11527,0.01364
+B250,777,9,"Trust, Transparency and Sector Applications",0.07535,0.09069,-0.01535
+B250,777,10,"Governance, Capabilities and Ecosystems",0.05342,0.09459,-0.04117
+B250,777,11,"NFTs, Marketing and Research Agenda",0.1273,0.08674,0.04056
+B250,777,12,"Risk Management, Accounting and Credit",0.05346,0.02004,0.03342
+B250,31337,1,Empirical Market and Disclosure Effects,0.0576,0.08089,-0.02329
+B250,31337,2,Supply Chain Operations and Integration,0.14686,0.13012,0.01674
+B250,31337,3,"FinTech, Payments and Financial Markets",0.03781,0.03676,0.00105
+B250,31337,4,Pricing and Channel Strategy,0.08939,0.14162,-0.05223
+B250,31337,5,System Architecture and Security Design,0.10057,0.05255,0.04802
+B250,31337,6,Cryptocurrency Markets and Token Pricing,0.06917,0.0858,-0.01663
+B250,31337,7,Smart Contract Protocols and Schemes,0.04034,0.06492,-0.02458
+B250,31337,8,Sustainable Adoption and Firm Performance,0.08217,0.11527,-0.0331
+B250,31337,9,"Trust, Transparency and Sector Applications",0.16124,0.09069,0.07054
+B250,31337,10,"Governance, Capabilities and Ecosystems",0.04568,0.09459,-0.04891
+B250,31337,11,"NFTs, Marketing and Research Agenda",0.12282,0.08674,0.03608
+B250,31337,12,"Risk Management, Accounting and Credit",0.04635,0.02004,0.0263
+B500,42,1,Empirical Market and Disclosure Effects,0.07253,0.08089,-0.00837
+B500,42,2,Supply Chain Operations and Integration,0.07484,0.13012,-0.05529
+B500,42,3,"FinTech, Payments and Financial Markets",0.07572,0.03676,0.03897
+B500,42,4,Pricing and Channel Strategy,0.04886,0.14162,-0.09276
+B500,42,5,System Architecture and Security Design,0.12703,0.05255,0.07448
+B500,42,6,Cryptocurrency Markets and Token Pricing,0.06639,0.0858,-0.01941
+B500,42,7,Smart Contract Protocols and Schemes,0.03005,0.06492,-0.03487
+B500,42,8,Sustainable Adoption and Firm Performance,0.19174,0.11527,0.07648
+B500,42,9,"Trust, Transparency and Sector Applications",0.06292,0.09069,-0.02777
+B500,42,10,"Governance, Capabilities and Ecosystems",0.08831,0.09459,-0.00628
+B500,42,11,"NFTs, Marketing and Research Agenda",0.10594,0.08674,0.01919
+B500,42,12,"Risk Management, Accounting and Credit",0.05566,0.02004,0.03562
+B500,7,1,Empirical Market and Disclosure Effects,0.05473,0.08089,-0.02617
+B500,7,2,Supply Chain Operations and Integration,0.07866,0.13012,-0.05147
+B500,7,3,"FinTech, Payments and Financial Markets",0.04855,0.03676,0.01179
+B500,7,4,Pricing and Channel Strategy,0.15435,0.14162,0.01272
+B500,7,5,System Architecture and Security Design,0.14085,0.05255,0.0883
+B500,7,6,Cryptocurrency Markets and Token Pricing,0.06316,0.0858,-0.02264
+B500,7,7,Smart Contract Protocols and Schemes,0.01939,0.06492,-0.04553
+B500,7,8,Sustainable Adoption and Firm Performance,0.09618,0.11527,-0.01909
+B500,7,9,"Trust, Transparency and Sector Applications",0.06629,0.09069,-0.02441
+B500,7,10,"Governance, Capabilities and Ecosystems",0.0389,0.09459,-0.05569
+B500,7,11,"NFTs, Marketing and Research Agenda",0.14207,0.08674,0.05533
+B500,7,12,"Risk Management, Accounting and Credit",0.0969,0.02004,0.07685
+B500,2024,1,Empirical Market and Disclosure Effects,0.05625,0.08089,-0.02464
+B500,2024,2,Supply Chain Operations and Integration,0.04901,0.13012,-0.08111
+B500,2024,3,"FinTech, Payments and Financial Markets",0.02098,0.03676,-0.01578
+B500,2024,4,Pricing and Channel Strategy,0.09577,0.14162,-0.04585
+B500,2024,5,System Architecture and Security Design,0.15708,0.05255,0.10453
+B500,2024,6,Cryptocurrency Markets and Token Pricing,0.05623,0.0858,-0.02957
+B500,2024,7,Smart Contract Protocols and Schemes,0.06128,0.06492,-0.00364
+B500,2024,8,Sustainable Adoption and Firm Performance,0.22808,0.11527,0.11282
+B500,2024,9,"Trust, Transparency and Sector Applications",0.03245,0.09069,-0.05825
+B500,2024,10,"Governance, Capabilities and Ecosystems",0.07577,0.09459,-0.01882
+B500,2024,11,"NFTs, Marketing and Research Agenda",0.09281,0.08674,0.00607
+B500,2024,12,"Risk Management, Accounting and Credit",0.0743,0.02004,0.05425
+B500,123,1,Empirical Market and Disclosure Effects,0.06453,0.08089,-0.01636
+B500,123,2,Supply Chain Operations and Integration,0.08243,0.13012,-0.04769
+B500,123,3,"FinTech, Payments and Financial Markets",0.06301,0.03676,0.02625
+B500,123,4,Pricing and Channel Strategy,0.10297,0.14162,-0.03865
+B500,123,5,System Architecture and Security Design,0.14866,0.05255,0.09611
+B500,123,6,Cryptocurrency Markets and Token Pricing,0.08459,0.0858,-0.00121
+B500,123,7,Smart Contract Protocols and Schemes,0.07675,0.06492,0.01184
+B500,123,8,Sustainable Adoption and Firm Performance,0.12683,0.11527,0.01157
+B500,123,9,"Trust, Transparency and Sector Applications",0.13196,0.09069,0.04126
+B500,123,10,"Governance, Capabilities and Ecosystems",0.03002,0.09459,-0.06457
+B500,123,11,"NFTs, Marketing and Research Agenda",0.03694,0.08674,-0.0498
+B500,123,12,"Risk Management, Accounting and Credit",0.0513,0.02004,0.03125
+B500,777,1,Empirical Market and Disclosure Effects,0.04228,0.08089,-0.03862
+B500,777,2,Supply Chain Operations and Integration,0.06452,0.13012,-0.0656
+B500,777,3,"FinTech, Payments and Financial Markets",0.06419,0.03676,0.02744
+B500,777,4,Pricing and Channel Strategy,0.09127,0.14162,-0.05036
+B500,777,5,System Architecture and Security Design,0.11512,0.05255,0.06257
+B500,777,6,Cryptocurrency Markets and Token Pricing,0.0494,0.0858,-0.0364
+B500,777,7,Smart Contract Protocols and Schemes,0.05055,0.06492,-0.01436
+B500,777,8,Sustainable Adoption and Firm Performance,0.07346,0.11527,-0.0418
+B500,777,9,"Trust, Transparency and Sector Applications",0.02159,0.09069,-0.06911
+B500,777,10,"Governance, Capabilities and Ecosystems",0.20116,0.09459,0.10657
+B500,777,11,"NFTs, Marketing and Research Agenda",0.15855,0.08674,0.07181
+B500,777,12,"Risk Management, Accounting and Credit",0.0679,0.02004,0.04786
+B500,31337,1,Empirical Market and Disclosure Effects,0.0194,0.08089,-0.06149
+B500,31337,2,Supply Chain Operations and Integration,0.21365,0.13012,0.08353
+B500,31337,3,"FinTech, Payments and Financial Markets",0.04025,0.03676,0.0035
+B500,31337,4,Pricing and Channel Strategy,0.10361,0.14162,-0.03802
+B500,31337,5,System Architecture and Security Design,0.05124,0.05255,-0.00131
+B500,31337,6,Cryptocurrency Markets and Token Pricing,0.08771,0.0858,0.00191
+B500,31337,7,Smart Contract Protocols and Schemes,0.0549,0.06492,-0.01002
+B500,31337,8,Sustainable Adoption and Firm Performance,0.06334,0.11527,-0.05193
+B500,31337,9,"Trust, Transparency and Sector Applications",0.19569,0.09069,0.10499
+B500,31337,10,"Governance, Capabilities and Ecosystems",0.06447,0.09459,-0.03011
+B500,31337,11,"NFTs, Marketing and Research Agenda",0.069,0.08674,-0.01774
+B500,31337,12,"Risk Management, Accounting and Credit",0.03674,0.02004,0.01669
+B1000,42,1,Empirical Market and Disclosure Effects,0.02999,0.08089,-0.05091
+B1000,42,2,Supply Chain Operations and Integration,0.21779,0.13012,0.08767
+B1000,42,3,"FinTech, Payments and Financial Markets",0.02664,0.03676,-0.01012
+B1000,42,4,Pricing and Channel Strategy,0.04419,0.14162,-0.09744
+B1000,42,5,System Architecture and Security Design,0.07805,0.05255,0.0255
+B1000,42,6,Cryptocurrency Markets and Token Pricing,0.11151,0.0858,0.02571
+B1000,42,7,Smart Contract Protocols and Schemes,0.10411,0.06492,0.0392
+B1000,42,8,Sustainable Adoption and Firm Performance,0.03154,0.11527,-0.08373
+B1000,42,9,"Trust, Transparency and Sector Applications",0.08994,0.09069,-0.00076
+B1000,42,10,"Governance, Capabilities and Ecosystems",0.02953,0.09459,-0.06506
+B1000,42,11,"NFTs, Marketing and Research Agenda",0.16316,0.08674,0.07642
+B1000,42,12,"Risk Management, Accounting and Credit",0.07356,0.02004,0.05351
+B1000,7,1,Empirical Market and Disclosure Effects,0.06552,0.08089,-0.01537
+B1000,7,2,Supply Chain Operations and Integration,0.16593,0.13012,0.03581
+B1000,7,3,"FinTech, Payments and Financial Markets",0.06874,0.03676,0.03198
+B1000,7,4,Pricing and Channel Strategy,0.10428,0.14162,-0.03734
+B1000,7,5,System Architecture and Security Design,0.12334,0.05255,0.07079
+B1000,7,6,Cryptocurrency Markets and Token Pricing,0.10191,0.0858,0.01611
+B1000,7,7,Smart Contract Protocols and Schemes,0.07681,0.06492,0.01189
+B1000,7,8,Sustainable Adoption and Firm Performance,0.03125,0.11527,-0.08401
+B1000,7,9,"Trust, Transparency and Sector Applications",0.0357,0.09069,-0.05499
+B1000,7,10,"Governance, Capabilities and Ecosystems",0.06717,0.09459,-0.02742
+B1000,7,11,"NFTs, Marketing and Research Agenda",0.14992,0.08674,0.06318
+B1000,7,12,"Risk Management, Accounting and Credit",0.00943,0.02004,-0.01062
+B1000,2024,1,Empirical Market and Disclosure Effects,0.02999,0.08089,-0.05091
+B1000,2024,2,Supply Chain Operations and Integration,0.07341,0.13012,-0.05671
+B1000,2024,3,"FinTech, Payments and Financial Markets",0.08613,0.03676,0.04937
+B1000,2024,4,Pricing and Channel Strategy,0.10827,0.14162,-0.03335
+B1000,2024,5,System Architecture and Security Design,0.05206,0.05255,-0.00049
+B1000,2024,6,Cryptocurrency Markets and Token Pricing,0.02949,0.0858,-0.05631
+B1000,2024,7,Smart Contract Protocols and Schemes,0.01768,0.06492,-0.04724
+B1000,2024,8,Sustainable Adoption and Firm Performance,0.04362,0.11527,-0.07165
+B1000,2024,9,"Trust, Transparency and Sector Applications",0.12952,0.09069,0.03882
+B1000,2024,10,"Governance, Capabilities and Ecosystems",0.12602,0.09459,0.03143
+B1000,2024,11,"NFTs, Marketing and Research Agenda",0.19467,0.08674,0.10793
+B1000,2024,12,"Risk Management, Accounting and Credit",0.10915,0.02004,0.08911
+B1000,123,1,Empirical Market and Disclosure Effects,0.08581,0.08089,0.00492
+B1000,123,2,Supply Chain Operations and Integration,0.12084,0.13012,-0.00928
+B1000,123,3,"FinTech, Payments and Financial Markets",0.02749,0.03676,-0.00927
+B1000,123,4,Pricing and Channel Strategy,0.0752,0.14162,-0.06642
+B1000,123,5,System Architecture and Security Design,0.09054,0.05255,0.03799
+B1000,123,6,Cryptocurrency Markets and Token Pricing,0.06949,0.0858,-0.01631
+B1000,123,7,Smart Contract Protocols and Schemes,0.01542,0.06492,-0.04949
+B1000,123,8,Sustainable Adoption and Firm Performance,0.0849,0.11527,-0.03037
+B1000,123,9,"Trust, Transparency and Sector Applications",0.03976,0.09069,-0.05093
+B1000,123,10,"Governance, Capabilities and Ecosystems",0.04898,0.09459,-0.04561
+B1000,123,11,"NFTs, Marketing and Research Agenda",0.24632,0.08674,0.15958
+B1000,123,12,"Risk Management, Accounting and Credit",0.09525,0.02004,0.07521
+B1000,777,1,Empirical Market and Disclosure Effects,0.0464,0.08089,-0.0345
+B1000,777,2,Supply Chain Operations and Integration,0.09583,0.13012,-0.03429
+B1000,777,3,"FinTech, Payments and Financial Markets",0.09173,0.03676,0.05498
+B1000,777,4,Pricing and Channel Strategy,0.07884,0.14162,-0.06278
+B1000,777,5,System Architecture and Security Design,0.12682,0.05255,0.07427
+B1000,777,6,Cryptocurrency Markets and Token Pricing,0.04861,0.0858,-0.03719
+B1000,777,7,Smart Contract Protocols and Schemes,0.07771,0.06492,0.01279
+B1000,777,8,Sustainable Adoption and Firm Performance,0.22606,0.11527,0.1108
+B1000,777,9,"Trust, Transparency and Sector Applications",0.05534,0.09069,-0.03536
+B1000,777,10,"Governance, Capabilities and Ecosystems",0.01577,0.09459,-0.07882
+B1000,777,11,"NFTs, Marketing and Research Agenda",0.11798,0.08674,0.03124
+B1000,777,12,"Risk Management, Accounting and Credit",0.0189,0.02004,-0.00114
+B1000,31337,1,Empirical Market and Disclosure Effects,0.06092,0.08089,-0.01997
+B1000,31337,2,Supply Chain Operations and Integration,0.15093,0.13012,0.0208
+B1000,31337,3,"FinTech, Payments and Financial Markets",0.03462,0.03676,-0.00213
+B1000,31337,4,Pricing and Channel Strategy,0.09773,0.14162,-0.0439
+B1000,31337,5,System Architecture and Security Design,0.10489,0.05255,0.05234
+B1000,31337,6,Cryptocurrency Markets and Token Pricing,0.08562,0.0858,-0.00018
+B1000,31337,7,Smart Contract Protocols and Schemes,0.03011,0.06492,-0.0348
+B1000,31337,8,Sustainable Adoption and Firm Performance,0.0265,0.11527,-0.08877
+B1000,31337,9,"Trust, Transparency and Sector Applications",0.07368,0.09069,-0.01702
+B1000,31337,10,"Governance, Capabilities and Ecosystems",0.055,0.09459,-0.03959
+B1000,31337,11,"NFTs, Marketing and Research Agenda",0.25618,0.08674,0.16944
+B1000,31337,12,"Risk Management, Accounting and Credit",0.02383,0.02004,0.00378
+BFull,42,1,Empirical Market and Disclosure Effects,0.0163,0.08089,-0.0646
+BFull,42,2,Supply Chain Operations and Integration,0.11718,0.13012,-0.01295
+BFull,42,3,"FinTech, Payments and Financial Markets",0.00654,0.03676,-0.03022
+BFull,42,4,Pricing and Channel Strategy,0.11098,0.14162,-0.03064
+BFull,42,5,System Architecture and Security Design,0.06947,0.05255,0.01692
+BFull,42,6,Cryptocurrency Markets and Token Pricing,0.09559,0.0858,0.00979
+BFull,42,7,Smart Contract Protocols and Schemes,0.07924,0.06492,0.01432
+BFull,42,8,Sustainable Adoption and Firm Performance,0.07793,0.11527,-0.03733
+BFull,42,9,"Trust, Transparency and Sector Applications",0.12985,0.09069,0.03915
+BFull,42,10,"Governance, Capabilities and Ecosystems",0.19578,0.09459,0.1012
+BFull,42,11,"NFTs, Marketing and Research Agenda",0.08252,0.08674,-0.00423
+BFull,42,12,"Risk Management, Accounting and Credit",0.01862,0.02004,-0.00143
+BFull,7,1,Empirical Market and Disclosure Effects,0.05328,0.08089,-0.02762
+BFull,7,2,Supply Chain Operations and Integration,0.19381,0.13012,0.06369
+BFull,7,3,"FinTech, Payments and Financial Markets",0.07221,0.03676,0.03546
+BFull,7,4,Pricing and Channel Strategy,0.08657,0.14162,-0.05505
+BFull,7,5,System Architecture and Security Design,0.10186,0.05255,0.04931
+BFull,7,6,Cryptocurrency Markets and Token Pricing,0.04569,0.0858,-0.0401
+BFull,7,7,Smart Contract Protocols and Schemes,0.09044,0.06492,0.02553
+BFull,7,8,Sustainable Adoption and Firm Performance,0.06756,0.11527,-0.04771
+BFull,7,9,"Trust, Transparency and Sector Applications",0.07161,0.09069,-0.01909
+BFull,7,10,"Governance, Capabilities and Ecosystems",0.02585,0.09459,-0.06873
+BFull,7,11,"NFTs, Marketing and Research Agenda",0.13589,0.08674,0.04915
+BFull,7,12,"Risk Management, Accounting and Credit",0.05522,0.02004,0.03518
+BFull,2024,1,Empirical Market and Disclosure Effects,0.0687,0.08089,-0.01219
+BFull,2024,2,Supply Chain Operations and Integration,0.06244,0.13012,-0.06768
+BFull,2024,3,"FinTech, Payments and Financial Markets",0.01937,0.03676,-0.01739
+BFull,2024,4,Pricing and Channel Strategy,0.0562,0.14162,-0.08542
+BFull,2024,5,System Architecture and Security Design,0.15414,0.05255,0.10159
+BFull,2024,6,Cryptocurrency Markets and Token Pricing,0.02826,0.0858,-0.05754
+BFull,2024,7,Smart Contract Protocols and Schemes,0.08345,0.06492,0.01853
+BFull,2024,8,Sustainable Adoption and Firm Performance,0.18937,0.11527,0.0741
+BFull,2024,9,"Trust, Transparency and Sector Applications",0.13764,0.09069,0.04694
+BFull,2024,10,"Governance, Capabilities and Ecosystems",0.09947,0.09459,0.00489
+BFull,2024,11,"NFTs, Marketing and Research Agenda",0.05458,0.08674,-0.03216
+BFull,2024,12,"Risk Management, Accounting and Credit",0.04636,0.02004,0.02632
+BFull,123,1,Empirical Market and Disclosure Effects,0.02468,0.08089,-0.05621
+BFull,123,2,Supply Chain Operations and Integration,0.0515,0.13012,-0.07862
+BFull,123,3,"FinTech, Payments and Financial Markets",0.0167,0.03676,-0.02006
+BFull,123,4,Pricing and Channel Strategy,0.10068,0.14162,-0.04094
+BFull,123,5,System Architecture and Security Design,0.15931,0.05255,0.10676
+BFull,123,6,Cryptocurrency Markets and Token Pricing,0.07798,0.0858,-0.00782
+BFull,123,7,Smart Contract Protocols and Schemes,0.11647,0.06492,0.05155
+BFull,123,8,Sustainable Adoption and Firm Performance,0.29119,0.11527,0.17592
+BFull,123,9,"Trust, Transparency and Sector Applications",0.04103,0.09069,-0.04966
+BFull,123,10,"Governance, Capabilities and Ecosystems",0.08794,0.09459,-0.00665
+BFull,123,11,"NFTs, Marketing and Research Agenda",0.02059,0.08674,-0.06616
+BFull,123,12,"Risk Management, Accounting and Credit",0.01193,0.02004,-0.00812
+BFull,777,1,Empirical Market and Disclosure Effects,0.0249,0.08089,-0.056
+BFull,777,2,Supply Chain Operations and Integration,0.12343,0.13012,-0.00669
+BFull,777,3,"FinTech, Payments and Financial Markets",0.05498,0.03676,0.01823
+BFull,777,4,Pricing and Channel Strategy,0.04709,0.14162,-0.09453
+BFull,777,5,System Architecture and Security Design,0.04037,0.05255,-0.01218
+BFull,777,6,Cryptocurrency Markets and Token Pricing,0.05575,0.0858,-0.03005
+BFull,777,7,Smart Contract Protocols and Schemes,0.0561,0.06492,-0.00882
+BFull,777,8,Sustainable Adoption and Firm Performance,0.19785,0.11527,0.08259
+BFull,777,9,"Trust, Transparency and Sector Applications",0.10768,0.09069,0.01699
+BFull,777,10,"Governance, Capabilities and Ecosystems",0.02654,0.09459,-0.06805
+BFull,777,11,"NFTs, Marketing and Research Agenda",0.1558,0.08674,0.06906
+BFull,777,12,"Risk Management, Accounting and Credit",0.1095,0.02004,0.08946
+BFull,31337,1,Empirical Market and Disclosure Effects,0.06962,0.08089,-0.01127
+BFull,31337,2,Supply Chain Operations and Integration,0.11894,0.13012,-0.01118
+BFull,31337,3,"FinTech, Payments and Financial Markets",0.07098,0.03676,0.03422
+BFull,31337,4,Pricing and Channel Strategy,0.09057,0.14162,-0.05106
+BFull,31337,5,System Architecture and Security Design,0.02451,0.05255,-0.02805
+BFull,31337,6,Cryptocurrency Markets and Token Pricing,0.06612,0.0858,-0.01968
+BFull,31337,7,Smart Contract Protocols and Schemes,0.10584,0.06492,0.04092
+BFull,31337,8,Sustainable Adoption and Firm Performance,0.09689,0.11527,-0.01837
+BFull,31337,9,"Trust, Transparency and Sector Applications",0.09412,0.09069,0.00343
+BFull,31337,10,"Governance, Capabilities and Ecosystems",0.039,0.09459,-0.05559
+BFull,31337,11,"NFTs, Marketing and Research Agenda",0.17032,0.08674,0.08358
+BFull,31337,12,"Risk Management, Accounting and Credit",0.05308,0.02004,0.03304

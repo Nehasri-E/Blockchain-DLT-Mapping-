@@ -1,0 +1,116 @@
+{
+  "final_model": {
+    "corpus": "B (title + abstract + conclusion capped at 250 words)",
+    "implementation": "gensim.models.LdaModel (single-process, deterministic)",
+    "num_topics": 12,
+    "alpha": "symmetric",
+    "eta": "auto",
+    "passes": 20,
+    "iterations": 200,
+    "chunksize": 200,
+    "random_state": 42,
+    "eval_every": null,
+    "documents": 987,
+    "vocabulary": 3335
+  },
+  "robustness_model": {
+    "corpus": "A (title + abstract)",
+    "implementation": "gensim.models.LdaModel",
+    "num_topics": 12,
+    "alpha": "symmetric",
+    "eta": "auto",
+    "passes": 20,
+    "iterations": 200,
+    "chunksize": 200,
+    "random_state": 42,
+    "documents": 986,
+    "vocabulary": 2308,
+    "saved_to_disk": false,
+    "note": "fitted inside 06_interpret.py and never serialised; deterministic, so re-running that script reproduces it exactly"
+  },
+  "tuning_grid": {
+    "implementation": "gensim.models.LdaMulticore (workers=2) - NOT deterministic, used only for seed-averaged metrics",
+    "K": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "priors": [
+      [
+        "symmetric",
+        "symmetric"
+      ],
+      [
+        "asymmetric",
+        "symmetric"
+      ],
+      [
+        "symmetric",
+        "auto"
+      ],
+      [
+        "asymmetric",
+        "auto"
+      ]
+    ],
+    "seeds": [
+      42,
+      7,
+      2024
+    ],
+    "passes": 10,
+    "iterations": 100,
+    "total_models": 312,
+    "corpora": [
+      "A",
+      "B"
+    ]
+  },
+  "preprocessing": {
+    "conclusion_cap_words": 250,
+    "min_abstract_words": 50,
+    "min_conclusion_words": 50,
+    "spacy_model": "en_core_web_sm",
+    "keep_pos": [
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "VERB"
+    ],
+    "bigram": {
+      "min_count": 12,
+      "threshold": 12.0
+    },
+    "trigram": {
+      "min_count": 8,
+      "threshold": 10.0
+    },
+    "filter_extremes": {
+      "no_below": 5,
+      "no_above": 0.5
+    },
+    "min_bow_length_to_retain_doc": 10
+  },
+  "selection": {
+    "metric_used_for_K": "topic distinctiveness (mean pairwise Jensen-Shannon) and manual interpretability",
+    "reason": "C_v is flat from K=4 to K=12; differences are inside seed noise and do not identify an optimum",
+    "js_mean_k6": 0.789,
+    "js_mean_k12": 0.852
+  },
+  "trend_analysis": {
+    "years_modelled": "2017-2026",
+    "years_plotted": "2019-2025",
+    "method": "OLS slope of mean topic share on year",
+    "alpha": 0.05
+  }
+}

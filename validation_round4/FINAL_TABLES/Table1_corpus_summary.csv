@@ -1,0 +1,11 @@
+Property,Value
+Papers analysed,987
+Source records,1003
+Journals,133
+Year range,2017-2026
+Trend window,2019-2025
+Vocabulary terms,3335
+Median tokens per document,191
+Primary model,NMF K=6 on TF-IDF
+Initialisations,6
+Validated themes,3

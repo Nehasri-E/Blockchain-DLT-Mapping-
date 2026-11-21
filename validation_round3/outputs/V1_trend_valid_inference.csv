@@ -1,0 +1,13 @@
+topic,label,doc_slope,cluster_robust_se,cr1_ci_low,cr1_ci_high,t_observed,p_wild_cluster,p_within_journal_perm,ols7_slope,ols7_p_fdr,wls7_p,theilsen_slope,r2_B2_ci_low,r2_B2_ci_high,r2_B2_tailprop_WITHDRAWN,p_wild_cluster_fdr,p_wild_cluster_sig_fdr,p_within_journal_perm_fdr,p_within_journal_perm_sig_fdr,cr1_ci_excludes_zero
+4,Pricing and Channel Strategy,0.016185,0.004711,0.006952,0.025419,3.436,0.0098,0.0001,0.018715,0.0302,0.02169,0.018539,0.008973,0.026684,0.001,0.1176,False,0.0006,True,True
+8,Sustainable Adoption and Firm Performance,0.010761,0.004648,0.001652,0.019871,2.315,0.0434,0.011,0.010983,0.00132,0.00026,0.011196,0.000708,0.019572,0.028,0.2604,False,0.033,True,True
+10,"Governance, Capabilities and Ecosystems",0.001417,0.003534,-0.005508,0.008343,0.401,0.7124,0.925,-0.003833,0.79258,0.80173,0.000817,-0.014685,0.004522,0.418,0.85488,False,0.925,False,False
+11,"NFTs, Marketing and Research Agenda",0.000897,0.00201,-0.003042,0.004836,0.446,0.6647,0.6296,0.003255,0.68815,0.80871,0.002495,-0.001282,0.007679,0.1475,0.85488,False,0.75552,False,False
+2,Supply Chain Operations and Integration,0.000331,0.005083,-0.009631,0.010293,0.065,0.9476,0.9242,-0.00244,0.79258,0.94057,-0.004334,-0.015978,0.008288,0.6615,0.9476,False,0.925,False,False
+3,"FinTech, Payments and Financial Markets",-0.000917,0.001885,-0.004612,0.002779,-0.486,0.6299,0.4155,-0.000276,0.79258,0.35021,-0.001166,-0.005111,0.002936,0.886,0.85488,False,0.62325,False,False
+1,Empirical Market and Disclosure Effects,-0.001033,0.004479,-0.009813,0.007746,-0.231,0.8287,0.5901,-0.000428,0.79258,0.45269,-0.000275,-0.01083,0.008193,0.901,0.90404,False,0.75552,False,False
+12,"Risk Management, Accounting and Credit",-0.001931,0.000985,-0.003862,-0.0,-1.96,0.1041,0.07,-0.002092,0.45684,0.24901,-0.002165,-0.005692,0.00072,0.174,0.30096,False,0.12,False,False
+6,Cryptocurrency Markets and Token Pricing,-0.003913,0.002562,-0.008934,0.001108,-1.527,0.165,0.0541,-0.001424,0.79258,0.22709,-0.002847,-0.007154,0.00513,0.7085,0.33,False,0.1082,False,False
+9,"Trust, Transparency and Sector Applications",-0.006659,0.003767,-0.014042,0.000724,-1.768,0.1254,0.031,-0.008438,0.0483,0.01972,-0.007213,-0.016706,0.000713,0.0785,0.30096,False,0.0744,False,False
+7,Smart Contract Protocols and Schemes,-0.007421,0.003899,-0.015062,0.00022,-1.903,0.0952,0.0006,-0.007811,0.0302,0.01022,-0.00644,-0.016587,0.002108,0.1615,0.30096,False,0.0024,True,False
+5,System Architecture and Security Design,-0.007718,0.005795,-0.019076,0.00364,-1.332,0.2635,0.0001,-0.006211,0.37786,0.05896,-0.004525,-0.012705,0.002082,0.3125,0.45171,False,0.0006,True,False

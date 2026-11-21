@@ -1,0 +1,31 @@
+check,status,detail
+all 30 models: topic-word rows sum to 1,PASS,max dev 1.19e-07
+document-topic rows sum to 1,PASS,max dev 2.71e-07
+B1 Corpus A topic-word rows sum to 1,PASS,"shape (12, 2308)"
+B2 Corpus A document-topic rows sum to 1,PASS,"shape (986, 13)"
+A: paper_ids unique,PASS,n=986
+A: paper_ids subset of master,PASS,
+B250: paper_ids unique,PASS,n=987
+B250: paper_ids subset of master,PASS,
+B500: paper_ids unique,PASS,n=987
+B500: paper_ids subset of master,PASS,
+B1000: paper_ids unique,PASS,n=987
+B1000: paper_ids subset of master,PASS,
+BFull: paper_ids unique,PASS,n=987
+BFull: paper_ids subset of master,PASS,
+B250 document set == baseline papers_with_topics,PASS,
+Corpus A is missing exactly 1 paper vs B250,PASS,dropped: ['WoS:36']
+no duplicated papers in any condition,PASS,
+B2 Corpus A IDs match corpus A order,PASS,
+all 75 within-condition seed alignments are bijections,PASS,0 violations
+A5 matched-topic table is one-to-one in every block,PASS,[]
+self-alignment cosine == 1.0 and identity permutation,PASS,
+all 72 original package files match the handover manifest,PASS,no baseline file was modified
+12 baseline trend slopes reproduced,PASS,max dev 5.00e-06
+published Corpus A/B robustness matrix reproduced,PASS,max dev 4.59e-04
+6 figures present,PASS,"V1_cap_effect_vs_seed_noise.png, V2_topic_seed_stability.png, V3_topic_recovery_by_cap.png, V4_trends_fdr_corrected.png, V5_trend_window_diagnostics.png, V6_coherence_by_cap_condition.png"
+figure script reads only result CSVs,PASS,"9 tables, no model objects loaded"
+machine-readable CSV for every major comparison,PASS,32 CSVs
+Corpus A model serialized,PASS,
+30 grid models on disk,PASS,30 found
+grid config records seeds and hyperparameters,PASS,grid_config.json + corpus_a_model_config.json present

@@ -1,0 +1,33 @@
+{
+  "K": 12,
+  "seeds": [
+    42,
+    7,
+    2024,
+    123,
+    777,
+    31337
+  ],
+  "conditions": [
+    "A",
+    "B250",
+    "B500",
+    "B1000",
+    "BFull"
+  ],
+  "hyperparameters": {
+    "num_topics": 12,
+    "alpha": "symmetric",
+    "eta": "auto",
+    "passes": 20,
+    "iterations": 200,
+    "chunksize": 200,
+    "eval_every": "None"
+  },
+  "implementation": "gensim.models.LdaModel (single process, deterministic)",
+  "total_models": 30,
+  "baseline_reuse_check": {
+    "refit_B250_seed42_expElogbeta_bit_identical_to_baseline": true,
+    "max_topic_word_deviation": 0.0
+  }
+}

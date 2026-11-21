@@ -1,0 +1,73 @@
+section,claim,stated_value,recomputed_value,source_file,status
+1 Corrections,Round 3 statements audited,31,31,F3_round3_discrepancy_table.csv,VERIFIED
+1 Corrections,statements found correct,28,28,F3_round3_discrepancy_table.csv,VERIFIED
+1 Corrections,statements requiring correction,3,3,F3_round3_discrepancy_table.csv,VERIFIED
+1 Corrections,NMF mean matched cosine at K=4,1.0,1.0,N2_nmf_stability_by_k.csv,VERIFIED
+1 Corrections,NMF mean matched cosine at K=6,0.9415,0.9415,N2_nmf_stability_by_k.csv,VERIFIED
+1 Corrections,identical seed pairs at K=4,15 of 15,15 of 15,F2_nmf_basin_structure.csv,VERIFIED
+1 Corrections,identical seed pairs at K=6,10 of 15,10 of 15,F2_nmf_basin_structure.csv,VERIFIED
+1 Corrections,identical seed pairs at K=8,2 of 15,2 of 15,F2_nmf_basin_structure.csv,VERIFIED
+1 Corrections,K=6 dominant basin membership,"7, 42, 123, 2024, 31337","7, 42, 123, 2024, 31337",F2_nmf_basin_structure.csv,VERIFIED
+1 Corrections,K=6 outlier seed,777,777,F2_nmf_basin_structure.csv,VERIFIED
+1 Corrections,all non-identical K=6 pairs involve seed 777,True,True,F1_nmf_pairwise_detail.csv,VERIFIED
+1 Corrections,"basin-only consensus reproduces full consensus, min cosine",0.989,0.9894,F4_nmf_outlier_seed_sensitivity.csv,VERIFIED
+1 Corrections,NMF ARI at K=6,0.749,0.7487,N2_nmf_stability_by_k.csv,VERIFIED
+2 Themes,N2 prevalence share of W,0.158,0.158,F5_final_themes_full.csv,VERIFIED
+2 Themes,N2 term lift vs corpus,3.82,3.82,F5_final_themes_full.csv,VERIFIED
+2 Themes,N2 distinctiveness (mean JS),0.722,0.7222,F5_final_themes_full.csv,VERIFIED
+2 Themes,N2 LDA cross-method cosine,0.878,0.8777,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N2 representative-paper overlap,0.613,0.613,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N2 journal-exclusion minimum cosine,0.884,0.8836,S3_journal_exclusion_sensitivity.csv,VERIFIED
+2 Themes,N2 uncapped-corpus cosine,0.935,0.9347,S4_bfull_corpus_sensitivity.csv,VERIFIED
+2 Themes,N3 prevalence share of W,0.163,0.163,F5_final_themes_full.csv,VERIFIED
+2 Themes,N3 term lift vs corpus,2.71,2.71,F5_final_themes_full.csv,VERIFIED
+2 Themes,N3 distinctiveness (mean JS),0.753,0.7531,F5_final_themes_full.csv,VERIFIED
+2 Themes,N3 LDA cross-method cosine,0.871,0.8713,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N3 representative-paper overlap,0.282,0.282,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N3 journal-exclusion minimum cosine,0.941,0.9406,S3_journal_exclusion_sensitivity.csv,VERIFIED
+2 Themes,N3 uncapped-corpus cosine,0.881,0.881,S4_bfull_corpus_sensitivity.csv,VERIFIED
+2 Themes,N4 prevalence share of W,0.174,0.1739,F5_final_themes_full.csv,VERIFIED
+2 Themes,N4 term lift vs corpus,2.1,2.1,F5_final_themes_full.csv,VERIFIED
+2 Themes,N4 distinctiveness (mean JS),0.691,0.6913,F5_final_themes_full.csv,VERIFIED
+2 Themes,N4 LDA cross-method cosine,0.864,0.8643,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N4 representative-paper overlap,0.282,0.282,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+2 Themes,N4 journal-exclusion minimum cosine,0.821,0.8213,S3_journal_exclusion_sensitivity.csv,VERIFIED
+2 Themes,N4 uncapped-corpus cosine,0.761,0.7615,S4_bfull_corpus_sensitivity.csv,VERIFIED
+2 Themes,themes presented as validated,3,3,Table2_final_themes.csv,VERIFIED
+2 Themes,CT4 min_within_cosine,0.468,0.4677,F10_criterion_sensitivity.csv,VERIFIED
+2 Themes,topics qualifying under all four criteria,1,1,F10_criterion_sensitivity.csv,VERIFIED
+2 Themes,topics qualifying under the three pre-specified criteria,2,2,F10_criterion_sensitivity.csv,VERIFIED
+3 Non-themes,N1 prevalence share of W,0.178,0.1775,F5_final_themes_full.csv,VERIFIED
+3 Non-themes,N5 prevalence share of W,0.173,0.1729,F5_final_themes_full.csv,VERIFIED
+3 Non-themes,N6 prevalence share of W,0.155,0.1547,F5_final_themes_full.csv,VERIFIED
+3 Non-themes,N1 term lift,1.61,1.61,F5_final_themes_full.csv,VERIFIED
+3 Non-themes,N5 LDA cosine,0.596,0.5961,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+3 Non-themes,N5 term-core overlap,0.059,0.059,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+3 Non-themes,N6 paper overlap,0.19,0.19,X2_lda_vs_nmf_crosswalk.csv,VERIFIED
+4 Temporal,topics tested,12,12,Table4_temporal_inference.csv,VERIFIED
+4 Temporal,significant under wild cluster bootstrap after FDR,0,0,Table4_temporal_inference.csv,VERIFIED
+4 Temporal,significant under within-journal permutation after FDR,4,4,Table4_temporal_inference.csv,VERIFIED
+4 Temporal,CR1 intervals excluding zero,2,2,Table4_temporal_inference.csv,VERIFIED
+4 Temporal,T4 raw clustered p,0.0098,0.0098,Table4_temporal_inference.csv,VERIFIED
+4 Temporal,T4 BH-adjusted q,0.118,0.1176,Table4_temporal_inference.csv,VERIFIED
+5 Authors,papers with author strings,987,987.0,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,author mentions,3483,3483.0,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,distinct normalised keys,2299,2299.0,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,ambiguous keys,135,135.0,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,percent of mentions affected by ambiguity,16.3,16.3,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,repeat authors,548,548.0,F6_author_parsing_diagnostics.csv,VERIFIED
+5 Authors,reliable disambiguation feasible,False,False,F8_author_feasibility_verdict.json,VERIFIED
+6 Decisions,pipeline decisions audited,30,30,F9_methodology_audit.csv,VERIFIED
+6 Decisions,decisions documented as fixed in advance,6,6,F9_methodology_audit.csv,VERIFIED
+6 Decisions,decisions made after seeing results,24,24,F9_methodology_audit.csv,VERIFIED
+Methods,papers analysed,987,987.0,Table1_corpus_summary.csv,VERIFIED
+Methods,source records,1003,1003.0,Table1_corpus_summary.csv,VERIFIED
+Methods,journals,133,133.0,Table1_corpus_summary.csv,VERIFIED
+Methods,vocabulary terms,3335,3335.0,Table1_corpus_summary.csv,VERIFIED
+Methods,NMF ARI at K=4 exceeds K=6,True,True,N2_nmf_stability_by_k.csv,VERIFIED
+Methods,LDA ARI at K=6,0.285,0.2853,T11_k_sweep_summary.csv,VERIFIED
+Methods,LDA recovery above chance is flat across K,0.341 to 0.418,0.341 to 0.418,T11_k_sweep_summary.csv,VERIFIED
+Methods,baseline E-step convergence,0.99983,0.99983,T3_stability_by_config.csv,VERIFIED
+Methods,C3 agreement with the 200-pass anchor,0.9992,0.9992,T3_stability_by_config.csv,VERIFIED
+Limitations,in-window papers touched by a repeat author,718 of 956,not machine-checkable,f03_authors.py console output,DOCUMENTED
+Limitations,NMF ARI at K=4,0.873,0.8728,N2_nmf_stability_by_k.csv,VERIFIED

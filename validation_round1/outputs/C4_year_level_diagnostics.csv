@@ -1,0 +1,85 @@
+topic,label,year,papers,mean_share,residual,cooks_distance,leverage,influential
+1,Empirical Market and Disclosure Effects,2019,38,0.07682,-0.00592,0.704,0.4643,True
+1,Empirical Market and Disclosure Effects,2020,94,0.08645,0.00414,0.1191,0.2857,False
+1,Empirical Market and Disclosure Effects,2021,102,0.08146,-0.00042,0.0006,0.1786,False
+1,Empirical Market and Disclosure Effects,2022,135,0.09154,0.01008,0.2454,0.1429,False
+1,Empirical Market and Disclosure Effects,2023,179,0.07675,-0.00428,0.0601,0.1786,False
+1,Empirical Market and Disclosure Effects,2024,191,0.07544,-0.00516,0.1851,0.2857,False
+1,Empirical Market and Disclosure Effects,2025,217,0.08174,0.00156,0.0491,0.4643,False
+2,Supply Chain Operations and Integration,2019,38,0.16488,0.02394,0.814,0.4643,True
+2,Supply Chain Operations and Integration,2020,94,0.13677,-0.00174,0.0015,0.2857,False
+2,Supply Chain Operations and Integration,2021,102,0.09541,-0.04065,0.3839,0.1786,False
+2,Supply Chain Operations and Integration,2022,135,0.15071,0.01709,0.0498,0.1429,False
+2,Supply Chain Operations and Integration,2023,179,0.11759,-0.01359,0.0429,0.1786,False
+2,Supply Chain Operations and Integration,2024,191,0.13228,0.00354,0.0062,0.2857,False
+2,Supply Chain Operations and Integration,2025,217,0.13771,0.01141,0.1848,0.4643,False
+3,"FinTech, Payments and Financial Markets",2019,38,0.02992,-0.0072,1.5144,0.4643,True
+3,"FinTech, Payments and Financial Markets",2020,94,0.04267,0.00582,0.3421,0.2857,False
+3,"FinTech, Payments and Financial Markets",2021,102,0.0409,0.00433,0.0893,0.1786,False
+3,"FinTech, Payments and Financial Markets",2022,135,0.03774,0.00144,0.0073,0.1429,False
+3,"FinTech, Payments and Financial Markets",2023,179,0.03114,-0.00488,0.1138,0.1786,False
+3,"FinTech, Payments and Financial Markets",2024,191,0.038,0.00226,0.0515,0.2857,False
+3,"FinTech, Payments and Financial Markets",2025,217,0.03371,-0.00176,0.0904,0.4643,False
+4,Pricing and Channel Strategy,2019,38,0.0533,-0.01591,0.3898,0.4643,False
+4,Pricing and Channel Strategy,2020,94,0.08746,-0.00046,0.0001,0.2857,False
+4,Pricing and Channel Strategy,2021,102,0.13014,0.02351,0.1394,0.1786,False
+4,Pricing and Channel Strategy,2022,135,0.10517,-0.02018,0.0754,0.1429,False
+4,Pricing and Channel Strategy,2023,179,0.17675,0.03269,0.2693,0.1786,False
+4,Pricing and Channel Strategy,2024,191,0.16161,-0.00117,0.0007,0.2857,False
+4,Pricing and Channel Strategy,2025,217,0.163,-0.01849,0.5269,0.4643,False
+5,System Architecture and Security Design,2019,38,0.05297,-0.02316,1.1093,0.4643,True
+5,System Architecture and Security Design,2020,94,0.1056,0.03569,0.9117,0.2857,True
+5,System Architecture and Security Design,2021,102,0.06211,-0.0016,0.0009,0.1786,False
+5,System Architecture and Security Design,2022,135,0.04576,-0.01174,0.0342,0.1429,False
+5,System Architecture and Security Design,2023,179,0.05306,0.00178,0.0011,0.1786,False
+5,System Architecture and Security Design,2024,191,0.04364,-0.00143,0.0015,0.2857,False
+5,System Architecture and Security Design,2025,217,0.03932,0.00046,0.0004,0.4643,False
+6,Cryptocurrency Markets and Token Pricing,2019,38,0.06797,-0.02183,1.2132,0.4643,True
+6,Cryptocurrency Markets and Token Pricing,2020,94,0.09074,0.00236,0.0049,0.2857,False
+6,Cryptocurrency Markets and Token Pricing,2021,102,0.11865,0.0317,0.4183,0.1786,False
+6,Cryptocurrency Markets and Token Pricing,2022,135,0.08249,-0.00304,0.0028,0.1429,False
+6,Cryptocurrency Markets and Token Pricing,2023,179,0.08751,0.00341,0.0048,0.1786,False
+6,Cryptocurrency Markets and Token Pricing,2024,191,0.0774,-0.00529,0.0246,0.2857,False
+6,Cryptocurrency Markets and Token Pricing,2025,217,0.07395,-0.00731,0.1359,0.4643,False
+7,Smart Contract Protocols and Schemes,2019,38,0.09096,-0.00369,0.1207,0.4643,False
+7,Smart Contract Protocols and Schemes,2020,94,0.10234,0.01551,0.7386,0.2857,True
+7,Smart Contract Protocols and Schemes,2021,102,0.07502,-0.004,0.0233,0.1786,False
+7,Smart Contract Protocols and Schemes,2022,135,0.05885,-0.01236,0.163,0.1429,False
+7,Smart Contract Protocols and Schemes,2023,179,0.06214,-0.00126,0.0023,0.1786,False
+7,Smart Contract Protocols and Schemes,2024,191,0.05581,0.00022,0.0002,0.2857,False
+7,Smart Contract Protocols and Schemes,2025,217,0.05337,0.00559,0.2771,0.4643,False
+8,Sustainable Adoption and Firm Performance,2019,38,0.07263,-0.00179,0.0934,0.4643,False
+8,Sustainable Adoption and Firm Performance,2020,94,0.08579,0.0004,0.0016,0.2857,False
+8,Sustainable Adoption and Firm Performance,2021,102,0.09571,-0.00067,0.0021,0.1786,False
+8,Sustainable Adoption and Firm Performance,2022,135,0.11568,0.00832,0.2436,0.1429,False
+8,Sustainable Adoption and Firm Performance,2023,179,0.11055,-0.00779,0.2907,0.1786,False
+8,Sustainable Adoption and Firm Performance,2024,191,0.13136,0.00204,0.0421,0.2857,False
+8,Sustainable Adoption and Firm Performance,2025,217,0.1398,-0.00051,0.0075,0.4643,False
+9,"Trust, Transparency and Sector Applications",2019,38,0.13934,0.01713,1.5145,0.4643,True
+9,"Trust, Transparency and Sector Applications",2020,94,0.10885,-0.00493,0.0434,0.2857,False
+9,"Trust, Transparency and Sector Applications",2021,102,0.08645,-0.01889,0.3012,0.1786,False
+9,"Trust, Transparency and Sector Applications",2022,135,0.09097,-0.00593,0.0218,0.1429,False
+9,"Trust, Transparency and Sector Applications",2023,179,0.09224,0.00378,0.0121,0.1786,False
+9,"Trust, Transparency and Sector Applications",2024,191,0.08765,0.00763,0.1041,0.2857,False
+9,"Trust, Transparency and Sector Applications",2025,217,0.07278,0.0012,0.0074,0.4643,False
+10,"Governance, Capabilities and Ecosystems",2019,38,0.16126,0.05085,1.7113,0.4643,True
+10,"Governance, Capabilities and Ecosystems",2020,94,0.05616,-0.05041,0.5822,0.2857,True
+10,"Governance, Capabilities and Ecosystems",2021,102,0.0917,-0.01104,0.0132,0.1786,False
+10,"Governance, Capabilities and Ecosystems",2022,135,0.10788,0.00897,0.0064,0.1429,False
+10,"Governance, Capabilities and Ecosystems",2023,179,0.08057,-0.01451,0.0228,0.1786,False
+10,"Governance, Capabilities and Ecosystems",2024,191,0.08446,-0.00678,0.0105,0.2857,False
+10,"Governance, Capabilities and Ecosystems",2025,217,0.11033,0.02292,0.3477,0.4643,False
+11,"NFTs, Marketing and Research Agenda",2019,38,0.06256,-0.01168,0.3125,0.4643,False
+11,"NFTs, Marketing and Research Agenda",2020,94,0.06022,-0.01727,0.2366,0.2857,False
+11,"NFTs, Marketing and Research Agenda",2021,102,0.11225,0.0315,0.3718,0.1786,False
+11,"NFTs, Marketing and Research Agenda",2022,135,0.08897,0.00497,0.0068,0.1429,False
+11,"NFTs, Marketing and Research Agenda",2023,179,0.09408,0.00682,0.0174,0.1786,False
+11,"NFTs, Marketing and Research Agenda",2024,191,0.09242,0.00191,0.0029,0.2857,False
+11,"NFTs, Marketing and Research Agenda",2025,217,0.07753,-0.01624,0.6042,0.4643,True
+12,"Risk Management, Accounting and Credit",2019,38,0.0274,-0.00075,0.0069,0.4643,False
+12,"Risk Management, Accounting and Credit",2020,94,0.03696,0.0109,0.5109,0.2857,False
+12,"Risk Management, Accounting and Credit",2021,102,0.0102,-0.01377,0.3851,0.1786,False
+12,"Risk Management, Accounting and Credit",2022,135,0.02425,0.00238,0.0085,0.1429,False
+12,"Risk Management, Accounting and Credit",2023,179,0.01762,-0.00216,0.0095,0.1786,False
+12,"Risk Management, Accounting and Credit",2024,191,0.01992,0.00223,0.0215,0.2857,False
+12,"Risk Management, Accounting and Credit",2025,217,0.01676,0.00116,0.0168,0.4643,False

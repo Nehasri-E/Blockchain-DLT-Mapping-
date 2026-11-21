@@ -1,0 +1,13 @@
+corpusB_topic,baseline_label,published_best_match_cosine,refit_best_match_cosine,abs_difference,refit_best_match_topic,hungarian_matched_topic,hungarian_cosine,published_verdict_ge_0.50,hungarian_verdict_ge_0.50
+1,Empirical Market and Disclosure Effects,0.358,0.3585,0.000459,4,1,0.1481,False,False
+2,Supply Chain Operations and Integration,0.724,0.7237,0.000289,6,6,0.7237,True,True
+3,"FinTech, Payments and Financial Markets",0.352,0.3523,0.000275,4,9,0.2604,False,False
+4,Pricing and Channel Strategy,0.756,0.756,4.4e-05,8,8,0.756,True,True
+5,System Architecture and Security Design,0.56,0.5601,7.9e-05,3,3,0.5601,True,True
+6,Cryptocurrency Markets and Token Pricing,0.665,0.665,3.3e-05,4,4,0.665,True,True
+7,Smart Contract Protocols and Schemes,0.397,0.3972,0.000207,12,7,0.3212,False,False
+8,Sustainable Adoption and Firm Performance,0.602,0.6016,0.000381,6,11,0.5078,True,True
+9,"Trust, Transparency and Sector Applications",0.615,0.6152,0.00023,12,12,0.6152,True,True
+10,"Governance, Capabilities and Ecosystems",0.515,0.5152,0.000219,11,2,0.3578,True,False
+11,"NFTs, Marketing and Research Agenda",0.483,0.4827,0.00031,11,5,0.436,False,False
+12,"Risk Management, Accounting and Credit",0.184,0.1836,0.000397,6,10,0.0739,False,False

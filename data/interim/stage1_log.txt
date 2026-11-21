@@ -1,0 +1,14 @@
+Loaded raw file: 1003 rows x 12 columns
+Dropped empty Unnamed columns -> 10 columns
+Excel cell-overflow spill rows removed: 3
+Mojibake-suspect cells: 77 before repair, 0 after
+Conclusions hitting the Excel 32,767-char cell limit: 1
+Journal spellings collapsed: 155 -> 133
+Correction / corrigendum notices flagged: 3
+Duplicate records flagged: 5 by DOI, 3 by title, 5 total
+Abstract shorter than 50 words: 7
+Conclusion missing or shorter than 50 words: 5
+Paper_ID generated for records with no Row_UID: 1
+Final analysis corpus: 987 papers
+  with a valid conclusion (Corpus B uses all three fields): 983
+  abstract only inside Corpus B: 4

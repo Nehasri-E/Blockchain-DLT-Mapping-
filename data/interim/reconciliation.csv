@@ -1,0 +1,7 @@
+Stage,Rows
+Raw rows in EDA_INPUT.csv,1003
+Less Excel spill rows,1000
+Less correction notices,997
+Less duplicate records,993
+Less abstracts under threshold,987
+Final analysis corpus,987

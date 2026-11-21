@@ -1,0 +1,3 @@
+round2_theme,lda_consensus_topic,lda_key_terms_matched,lda_qualifies,lda_doc_jaccard,lda_min_within_cosine,nmf_consensus_topic,nmf_key_terms_matched,nmf_qualifies,nmf_doc_jaccard,cross_method_cosine
+Cryptocurrency and token markets,1,7,True,0.3611,0.6671,2,7,True,0.7719,0.8777053304126188
+"Pricing, channel strategy and consumer platforms",4,7,False,0.1863,0.4677,3,7,True,1.0,0.8713067863717621

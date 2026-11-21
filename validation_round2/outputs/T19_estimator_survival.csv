@@ -1,0 +1,6 @@
+estimator,n_significant_after_fdr,topics
+OLS-7 (Round 1),4,"T4, T7, T8, T9"
+WLS-7 (Round 1),1,T8
+Theil-Sen (Round 1),4,"T4, T7, T8, T9"
+B1 iid document bootstrap,5,"T4, T5, T7, T8, T9"
+B2 journal cluster bootstrap,1,T4

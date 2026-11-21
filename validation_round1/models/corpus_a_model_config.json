@@ -1,0 +1,27 @@
+{
+  "model_file": "lda_corpus_a_k12.model",
+  "corpus": "A (title + abstract only)",
+  "implementation": "gensim.models.LdaModel (single process, deterministic)",
+  "hyperparameters": {
+    "num_topics": 12,
+    "alpha": "symmetric",
+    "eta": "auto",
+    "passes": 20,
+    "iterations": 200,
+    "chunksize": 200,
+    "eval_every": "None",
+    "random_state": 42
+  },
+  "documents": 986,
+  "vocabulary": 2308,
+  "rebuilt_corpus_matches_baseline": {
+    "document count": true,
+    "paper_ids identical": true,
+    "vocabulary size": true,
+    "token lists identical": true,
+    "BoW identical": true
+  },
+  "reproduces_published_robustness_matrix": true,
+  "max_deviation_from_published": 0.0004977132366418835,
+  "note": "The published robustness figure used max(axis=1), which is many-to-one. The Hungarian one-to-one figure is reported alongside in B5 but does not replace the published number."
+}

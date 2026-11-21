@@ -1,0 +1,22 @@
+pandas==3.0.5
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1
+gensim==4.4.0
+spacy==3.8.18
+pyLDAvis==3.4.0
+matplotlib==3.11.2
+seaborn==0.13.2
+ftfy==6.3.1
+pyarrow==26.0.1
+
+# spaCy language model, installed separately (not available on PyPI by name):
+#   python -m spacy download en_core_web_sm
+# Version used: en_core_web_sm 3.8.0
+
+# Python 3.13.18 on Linux-6.18.44-x86_64-with-glibc2.39
+#
+# Compatibility note: gensim 4.4.0 is the first release that builds against
+# numpy 2.x. Earlier gensim releases will not work with numpy 2.5.3. If you must
+# use gensim <= 4.3.x, pin numpy < 2 as well, and be aware that results may
+# differ slightly from those in outputs/.

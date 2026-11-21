@@ -1,0 +1,4 @@
+k,n_models,n_pairs,mean_matched_cosine,sd_matched_cosine,mean_reproducible_topics,pct_reproducible,mean_dominant_agreement,mean_ari,mean_top25_doc_jaccard,mean_c_v,mean_u_mass,mean_distinctiveness,mean_term_lift
+4,6,15,1.0,0.0,4.0,100.0,0.9521,0.8728,1.0,0.5321,-1.5036,0.6998,2.01
+6,6,15,0.9415,0.0856,5.33,88.9,0.8346,0.7487,0.8046,0.521,-1.4844,0.7289,2.56
+8,6,15,0.8865,0.0586,7.27,90.8,0.7691,0.7001,0.6235,0.5566,-1.5792,0.7528,4.39

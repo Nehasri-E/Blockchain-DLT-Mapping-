@@ -1,0 +1,13 @@
+ref_topic,ref_label,baseline_prevalence,mean_cosine_across_B_caps,min_cosine_across_B_caps,cosine_vs_corpusA,verdict
+4,Pricing and Channel Strategy,0.1416,0.7748,0.7223,0.756,stable
+6,Cryptocurrency Markets and Token Pricing,0.0858,0.7452,0.7106,0.665,stable
+8,Sustainable Adoption and Firm Performance,0.1153,0.7212,0.6245,0.5078,moderate
+2,Supply Chain Operations and Integration,0.1301,0.7041,0.6561,0.7237,moderate
+5,System Architecture and Security Design,0.0526,0.6356,0.431,0.5601,cap-sensitive
+10,"Governance, Capabilities and Ecosystems",0.0946,0.6085,0.5547,0.3578,moderate
+11,"NFTs, Marketing and Research Agenda",0.0867,0.5688,0.5032,0.436,moderate
+7,Smart Contract Protocols and Schemes,0.0649,0.3422,0.2379,0.3212,cap-sensitive
+3,"FinTech, Payments and Financial Markets",0.0368,0.3248,0.0132,0.2604,cap-sensitive
+9,"Trust, Transparency and Sector Applications",0.0907,0.3148,0.1546,0.6152,cap-sensitive
+12,"Risk Management, Accounting and Credit",0.02,0.1997,0.0627,0.0739,cap-sensitive
+1,Empirical Market and Disclosure Effects,0.0809,0.1522,0.0252,0.1481,cap-sensitive

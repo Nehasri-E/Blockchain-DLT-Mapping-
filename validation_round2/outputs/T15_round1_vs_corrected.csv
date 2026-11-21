@@ -1,0 +1,5 @@
+comparison,round1_difference,difference_in_noise_sds,round1_mannwhitney_p_INVALID,mean_paired_difference,boot_ci_low,boot_ci_high,exact_signflip_p_one_sided,ci_excludes_zero
+B250 vs A,0.0621,1.65,0.00918,0.0621,0.0301,0.0961,0.01562,True
+B250 vs B500,-0.0067,-0.18,0.71535,-0.0067,-0.0311,0.0128,0.67188,False
+B250 vs B1000,0.0454,1.21,0.00715,0.0454,0.0302,0.0653,0.01562,True
+B250 vs BFull,0.0349,0.93,0.04742,0.0349,0.0065,0.0622,0.0625,True

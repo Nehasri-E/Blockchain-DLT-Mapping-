@@ -1,0 +1,13 @@
+topic,label,ols7_slope,ols7_ci_low,ols7_ci_high,ols7_p,ols7_p_fdr,ols7_sig_fdr,theilsen_slope,permutation_p,docOLS_p_fdr,docOLS_sig_fdr
+4,Pricing and Channel Strategy,0.018715,0.007585,0.029846,0.00755,0.0302,True,0.018539,0.00965,0.0002,True
+8,Sustainable Adoption and Firm Performance,0.010983,0.008431,0.013535,0.00011,0.00132,True,0.011196,0.0009,0.00044,True
+11,"NFTs, Marketing and Research Agenda",0.003255,-0.005874,0.012384,0.40142,0.68815,False,0.002495,0.40153,0.75185,False
+3,"FinTech, Payments and Financial Markets",-0.000276,-0.002834,0.002282,0.79258,0.79258,False,-0.001166,0.78781,0.74453,False
+1,Empirical Market and Disclosure Effects,-0.000428,-0.00351,0.002655,0.73601,0.79258,False,-0.000275,0.73566,0.75185,False
+6,Cryptocurrency Markets and Token Pricing,-0.001424,-0.010085,0.007236,0.69004,0.79258,False,-0.002847,0.71751,0.16231,False
+12,"Risk Management, Accounting and Credit",-0.002092,-0.006012,0.001828,0.22842,0.45684,False,-0.002165,0.22079,0.14788,False
+2,Supply Chain Operations and Integration,-0.00244,-0.014034,0.009154,0.61175,0.79258,False,-0.004334,0.61337,0.9037,False
+10,"Governance, Capabilities and Ecosystems",-0.003833,-0.020817,0.01315,0.58694,0.79258,False,0.000817,0.61667,0.74453,False
+5,System Architecture and Security Design,-0.006211,-0.015818,0.003396,0.15744,0.37786,False,-0.004525,0.14294,0.00017,True
+7,Smart Contract Protocols and Schemes,-0.007811,-0.01245,-0.003172,0.00751,0.0302,True,-0.00644,0.0072,0.00066,True
+9,"Trust, Transparency and Sector Applications",-0.008438,-0.014519,-0.002357,0.0161,0.0483,True,-0.007213,0.0061,0.00745,True

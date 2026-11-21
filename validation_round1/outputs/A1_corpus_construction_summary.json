@@ -1,0 +1,103 @@
+{
+  "preprocessing": "identical to scripts/03_preprocess.py except CONCLUSION_CAP",
+  "refitted_per_corpus": [
+    "gensim Phrases bigram (min_count=12, threshold=12.0)",
+    "gensim Phrases trigram (min_count=8, threshold=10.0)",
+    "gensim Dictionary + filter_extremes(no_below=5, no_above=0.50)",
+    "document retention filter (>=10 BoW entries)"
+  ],
+  "reused_unchanged": [
+    "spaCy en_core_web_sm 3.8.0 POS-filtered lemmatization",
+    "LEMMA_FIX map",
+    "GENERIC stopword list",
+    "DOMAIN_KEEP protections",
+    "normalize() regexes",
+    "source table data/processed/lda_master.parquet"
+  ],
+  "rationale_for_refit": "Phrase statistics and filter_extremes thresholds are corpus-relative. Holding them fixed across caps would make the vocabulary a function of one arbitrary cap choice and would confound the sensitivity test.",
+  "baseline_reproduction_check": {
+    "document count": true,
+    "paper_ids identical": true,
+    "vocabulary size": true,
+    "vocabulary hash": true,
+    "token lists identical": true,
+    "BoW identical": true
+  },
+  "conditions": [
+    {
+      "condition": "A",
+      "conclusion_cap_words": "none",
+      "uses_conclusion": false,
+      "papers_truncated": 0,
+      "pct_papers_truncated": 0.0,
+      "conclusion_token_share_raw": 0.0,
+      "phrases_detected": 332,
+      "vocab_before_filter": 6842,
+      "vocab_after_filter": 2308,
+      "documents_retained": 986,
+      "documents_dropped": 1,
+      "median_tokens_per_doc": 92,
+      "total_tokens": 94003
+    },
+    {
+      "condition": "B250",
+      "conclusion_cap_words": 250,
+      "uses_conclusion": true,
+      "papers_truncated": 800,
+      "pct_papers_truncated": 81.1,
+      "conclusion_token_share_raw": 0.5495,
+      "phrases_detected": 719,
+      "vocab_before_filter": 10873,
+      "vocab_after_filter": 3335,
+      "documents_retained": 987,
+      "documents_dropped": 0,
+      "median_tokens_per_doc": 191,
+      "total_tokens": 190407
+    },
+    {
+      "condition": "B500",
+      "conclusion_cap_words": 500,
+      "uses_conclusion": true,
+      "papers_truncated": 494,
+      "pct_papers_truncated": 50.1,
+      "conclusion_token_share_raw": 0.6735,
+      "phrases_detected": 980,
+      "vocab_before_filter": 13236,
+      "vocab_after_filter": 3951,
+      "documents_retained": 987,
+      "documents_dropped": 0,
+      "median_tokens_per_doc": 270,
+      "total_tokens": 255703
+    },
+    {
+      "condition": "B1000",
+      "conclusion_cap_words": 1000,
+      "uses_conclusion": true,
+      "papers_truncated": 176,
+      "pct_papers_truncated": 17.8,
+      "conclusion_token_share_raw": 0.7406,
+      "phrases_detected": 1252,
+      "vocab_before_filter": 15373,
+      "vocab_after_filter": 4474,
+      "documents_retained": 987,
+      "documents_dropped": 0,
+      "median_tokens_per_doc": 302,
+      "total_tokens": 316238
+    },
+    {
+      "condition": "BFull",
+      "conclusion_cap_words": "none",
+      "uses_conclusion": true,
+      "papers_truncated": 0,
+      "pct_papers_truncated": 0.0,
+      "conclusion_token_share_raw": 0.773,
+      "phrases_detected": 1411,
+      "vocab_before_filter": 16936,
+      "vocab_after_filter": 4839,
+      "documents_retained": 987,
+      "documents_dropped": 0,
+      "median_tokens_per_doc": 302,
+      "total_tokens": 357678
+    }
+  ]
+}

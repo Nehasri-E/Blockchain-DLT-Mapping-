@@ -1,0 +1,35 @@
+check,status,detail
+72 original package files unmodified,PASS,
+no Round 1 file modified after Round 2 began,PASS,190 paths checked by mtime
+Round 1 manifest drift limited to the known stale QC_checklist entry,PASS,"drift: ['outputs/QC_checklist.csv'] (QC_checklist.csv was rewritten after the manifest, within Round 1)"
+convergence grid 30 models,PASS,30
+prior grid 18 models,PASS,18
+explicit eta grid 24 models,PASS,24
+K sweep 66 models,PASS,66
+every model has a config/diagnostic JSON,PASS,138 json for 138 models
+topic-word rows sum to 1 (sampled across all grids),PASS,max dev 1.19e-07
+document-topic rows sum to 1,PASS,max dev 3.65e-07
+all 60 K-sweep alignments are bijections,PASS,0 violations
+self-alignment is identity at cosine 1.0,PASS,
+"987 unique paper_ids, subset of master",PASS,
+"recovery table has no duplicate (K, topic) rows",PASS,29 rows over 4 K values
+C3 invariance vs 200-pass anchor >= 0.99,PASS,0.9992
+all configs reach >=99.9% E-step convergence,PASS,min 0.99983
+stability spread across configs is small (supports 'not convergence'),PASS,spread 0.0134 over 20-200 passes
+eta='auto' and eta='symmetric' give bit-identical topics,PASS,confirms T9 finding
+explicit eta DOES change topics (control),PASS,max diff 5.614e-02
+K sweep reports a random-pairing baseline,PASS,
+eta sweep reports a random-pairing baseline,PASS,
+exact permutation used all 2^6 = 64 sign assignments,PASS,
+no p-value below the 6-seed permutation floor,PASS,min p 0.01562 equals the floor 0.015625 (stored at 5 dp)
+Round 1 descriptive effect sizes preserved unchanged,PASS,point estimates identical; only the inference changed
+6 figures present,PASS,"F1_convergence_diagnostics.png, F2_eta_tradeoff.png, F3_k_stability.png, F4_k_quality.png, F5_cap_vs_seed_corrected.png, F6_trend_bootstrap.png"
+figure script loads no model objects,PASS,
+figure script reads T3_stability_by_config.csv,PASS,
+figure script reads T23_eta_chance_corrected.csv,PASS,
+figure script reads T11_k_sweep_summary.csv,PASS,
+figure script reads T12_cap_vs_seed_corrected.csv,PASS,
+figure script reads T16_trend_bootstrap_full.csv,PASS,
+machine-readable CSV for every major comparison,PASS,24 CSVs
+ROUND2_METHODS.md present,PASS,
+ROUND2_FINDINGS.md present,PASS,

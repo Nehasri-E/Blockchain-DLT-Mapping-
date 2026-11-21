@@ -1,0 +1,5 @@
+comparison,noise_floor_mean,noise_floor_sd,cap_contrast_mean,cap_contrast_sd,difference,difference_in_noise_sds,mannwhitney_p,cliffs_delta,separated_from_noise
+B250 vs A,0.561,0.0376,0.4989,0.0359,0.0621,1.65,0.00918,0.667,True
+B250 vs B500,0.561,0.0376,0.5677,0.0409,-0.0067,-0.18,0.71535,-0.156,False
+B250 vs B1000,0.561,0.0376,0.5155,0.0142,0.0454,1.21,0.00715,0.689,True
+B250 vs BFull,0.561,0.0376,0.5261,0.0476,0.0349,0.93,0.04742,0.489,True

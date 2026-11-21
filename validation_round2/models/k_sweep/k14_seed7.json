@@ -1,0 +1,1 @@
+{"seconds": 24.4, "final_pass_docs_converged": 987, "final_pass_docs_total": 987, "final_pass_convergence_rate": 1.0, "overall_convergence_rate": 0.99993, "bound_per_word": -7.535977, "c_v": 0.41293, "u_mass": -2.86357, "distinctiveness": 0.89088, "n_small_topics": 1, "min_prevalence": 0.01872, "max_prevalence": 0.29652, "prevalence_gini": 0.40868, "n_empty_dominant": 0}

@@ -1,0 +1,5 @@
+eta_setting,eta_value,mean_c_v,mean_u_mass,mean_distinctiveness,mean_bound_per_word,n_pairs,mean_matched_cosine,sd_matched_cosine,min_matched_cosine,mean_matched_js,mean_reproducible_topics,mean_dominant_agreement,sd_dominant_agreement,mean_ari,sd_ari
+eta_0.01,0.01,0.4067,-2.1209,0.8958,-10.89593,15,0.573,0.0295,0.5235,0.283,4.27,0.3594,0.0325,0.2026,0.0386
+eta_0.0833_1overK,0.08333333333333333,0.408,-2.4961,0.8744,-7.25988,15,0.5616,0.0277,0.5071,0.2975,3.6,0.3352,0.0388,0.1777,0.0392
+eta_0.3,0.3,0.4292,-2.5776,0.748,-7.10325,15,0.6498,0.0378,0.5928,0.4907,5.93,0.4625,0.0463,0.332,0.0308
+eta_1.0,1.0,0.4347,-4.1669,0.5373,-7.15312,15,0.7017,0.0384,0.6048,0.7202,7.2,0.6047,0.0745,0.4826,0.0728

@@ -1,0 +1,12 @@
+check,result,detail
+every manifested file present in the extract,PASS,"1229 files, 0 missing"
+every extracted file matches its SHA-256,PASS,0 changed
+all load-bearing files reachable in the extract,PASS,"17 checked, missing: none"
+Round 3 NMF stability reads correctly from the extract,PASS,K=6 mean matched cosine 0.9415
+no claim in the extract is a MISMATCH,PASS,"72 claims, 71 verified"
+Round 4 QC checklist in the extract is all PASS,PASS,38 of 38 PASS
+pickled LDA models load from the extract,PASS,"keys [6, 12]"
+master parquet loads with 987 papers,PASS,"987 rows, 17 columns"
+all six final figures present and non-empty,PASS,6 figures
+baseline unchanged against its own 73-file manifest,PASS,"72 of 73 checkable (FILE_MANIFEST.md cannot hash itself), 0 mismatched"
+shipped verify_archive.py runs clean in the extract,PASS,checked 1229 files; missing 0; changed 0

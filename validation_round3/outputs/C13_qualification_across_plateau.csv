@@ -1,0 +1,13 @@
+threshold,n_qualifying_themes,qualifying_cores
+0.5,1,"market, cryptocurrency, bitcoin, financial, price"
+0.525,1,"market, cryptocurrency, bitcoin, financial, price"
+0.55,1,"market, cryptocurrency, bitcoin, financial, price"
+0.575,1,"market, cryptocurrency, bitcoin, financial, price"
+0.6,1,"market, cryptocurrency, bitcoin, financial, price"
+0.625,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.65,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.675,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.7,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.725,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.75,2,"market, cryptocurrency, bitcoin, financial, price || platform, consumer, product, strategy, manufacturer"
+0.8,3,"market, cryptocurrency, bitcoin, price, financial || platform, product, consumer, adoption, strategy || adoption, supply_chain, blockchain_technology, performance, impact"

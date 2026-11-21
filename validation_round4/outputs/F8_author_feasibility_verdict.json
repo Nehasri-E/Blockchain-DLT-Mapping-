@@ -1,0 +1,9 @@
+{
+  "author_strings_parsable": true,
+  "pct_papers_parsable": 100.0,
+  "disambiguation_fields_available": [],
+  "pct_normalised_keys_ambiguous": 5.9,
+  "reliable_disambiguation_feasible": false,
+  "multiway_clustering_feasible": false,
+  "decision": "Author strings parse cleanly, but the dataset contains no affiliation, ORCID, email or co-author-resolved identifier, so only surname-plus-initial string matching is possible. That is name matching, not disambiguation. Multiway clustering by journal and author is therefore NOT performed: it would rest on identity claims the data cannot support, and the direction of its error is not even predictable, since name collisions inflate cluster sizes while name variants fragment true clusters. Documented as a limitation."
+}

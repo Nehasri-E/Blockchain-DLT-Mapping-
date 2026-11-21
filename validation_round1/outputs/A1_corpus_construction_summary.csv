@@ -1,0 +1,6 @@
+condition,conclusion_cap_words,uses_conclusion,papers_truncated,pct_papers_truncated,conclusion_token_share_raw,phrases_detected,vocab_before_filter,vocab_after_filter,documents_retained,documents_dropped,median_tokens_per_doc,total_tokens
+A,none,False,0,0.0,0.0,332,6842,2308,986,1,92,94003
+B250,250,True,800,81.1,0.5495,719,10873,3335,987,0,191,190407
+B500,500,True,494,50.1,0.6735,980,13236,3951,987,0,270,255703
+B1000,1000,True,176,17.8,0.7406,1252,15373,4474,987,0,302,316238
+BFull,none,True,0,0.0,0.773,1411,16936,4839,987,0,302,357678

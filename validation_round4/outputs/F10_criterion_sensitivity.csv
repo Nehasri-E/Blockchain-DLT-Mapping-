@@ -1,0 +1,7 @@
+consensus_topic,stable_core_size,mean_top25_doc_jaccard,term_lift_vs_corpus,min_within_cosine,qualifies_all_four_criteria,qualifies_prespecified_only
+1,16,0.3611,4.16,0.6671,True,True
+4,18,0.1863,3.62,0.4677,False,True
+3,14,0.0991,2.7,0.4793,False,False
+5,14,0.1051,2.85,0.4807,False,False
+2,9,0.0647,1.88,0.2316,False,False
+6,4,0.0537,2.02,0.1388,False,False

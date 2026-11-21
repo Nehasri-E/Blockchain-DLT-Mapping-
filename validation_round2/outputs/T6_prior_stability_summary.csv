@@ -1,0 +1,4 @@
+prior,alpha,eta,mean_c_v,sd_c_v,mean_u_mass,mean_distinctiveness,mean_bound_per_word,mean_estep_convergence,n_pairs,mean_matched_cosine,sd_matched_cosine,min_matched_cosine,mean_matched_js,mean_reproducible_topics,mean_dominant_agreement,sd_dominant_agreement,mean_ari,sd_ari
+P_base_sym_auto,symmetric,auto,0.408,0.0132,-2.4961,0.8744,-7.25525,1.0,15,0.5616,0.0277,0.5071,0.2975,3.6,0.3352,0.0388,0.1777,0.0392
+P_eta_sym_sym,symmetric,symmetric,0.408,0.0132,-2.4961,0.8744,-7.25988,1.0,15,0.5616,0.0277,0.5071,0.2975,3.6,0.3352,0.0388,0.1777,0.0392
+P_alpha_asym_auto,asymmetric,auto,0.4065,0.0151,-2.5259,0.8759,-7.2566,1.0,15,0.5484,0.0311,0.4952,0.2948,3.47,0.3408,0.037,0.1803,0.0449

@@ -1,0 +1,97 @@
+projection,condition,ref_topic,ref_label,matched_topic_in_condition,cosine
+union,A,1,Empirical Market and Disclosure Effects,1,0.1481
+union,A,2,Supply Chain Operations and Integration,6,0.7237
+union,A,3,"FinTech, Payments and Financial Markets",9,0.2604
+union,A,4,Pricing and Channel Strategy,8,0.756
+union,A,5,System Architecture and Security Design,3,0.5601
+union,A,6,Cryptocurrency Markets and Token Pricing,4,0.665
+union,A,7,Smart Contract Protocols and Schemes,7,0.3212
+union,A,8,Sustainable Adoption and Firm Performance,11,0.5078
+union,A,9,"Trust, Transparency and Sector Applications",12,0.6152
+union,A,10,"Governance, Capabilities and Ecosystems",2,0.3578
+union,A,11,"NFTs, Marketing and Research Agenda",5,0.436
+union,A,12,"Risk Management, Accounting and Credit",10,0.0739
+union,B500,1,Empirical Market and Disclosure Effects,12,0.1728
+union,B500,2,Supply Chain Operations and Integration,4,0.6561
+union,B500,3,"FinTech, Payments and Financial Markets",10,0.5498
+union,B500,4,Pricing and Channel Strategy,6,0.7294
+union,B500,5,System Architecture and Security Design,11,0.7198
+union,B500,6,Cryptocurrency Markets and Token Pricing,8,0.7965
+union,B500,7,Smart Contract Protocols and Schemes,9,0.4218
+union,B500,8,Sustainable Adoption and Firm Performance,5,0.8052
+union,B500,9,"Trust, Transparency and Sector Applications",7,0.1809
+union,B500,10,"Governance, Capabilities and Ecosystems",1,0.6094
+union,B500,11,"NFTs, Marketing and Research Agenda",2,0.6741
+union,B500,12,"Risk Management, Accounting and Credit",3,0.0627
+union,B1000,1,Empirical Market and Disclosure Effects,5,0.2585
+union,B1000,2,Supply Chain Operations and Integration,8,0.7108
+union,B1000,3,"FinTech, Payments and Financial Markets",1,0.4113
+union,B1000,4,Pricing and Channel Strategy,7,0.7223
+union,B1000,5,System Architecture and Security Design,12,0.7561
+union,B1000,6,Cryptocurrency Markets and Token Pricing,2,0.7284
+union,B1000,7,Smart Contract Protocols and Schemes,4,0.3669
+union,B1000,8,Sustainable Adoption and Firm Performance,11,0.6245
+union,B1000,9,"Trust, Transparency and Sector Applications",3,0.1546
+union,B1000,10,"Governance, Capabilities and Ecosystems",6,0.5547
+union,B1000,11,"NFTs, Marketing and Research Agenda",10,0.529
+union,B1000,12,"Risk Management, Accounting and Credit",9,0.3216
+union,BFull,1,Empirical Market and Disclosure Effects,9,0.0252
+union,BFull,2,Supply Chain Operations and Integration,8,0.7453
+union,BFull,3,"FinTech, Payments and Financial Markets",12,0.0132
+union,BFull,4,Pricing and Channel Strategy,3,0.8728
+union,BFull,5,System Architecture and Security Design,5,0.431
+union,BFull,6,Cryptocurrency Markets and Token Pricing,6,0.7106
+union,BFull,7,Smart Contract Protocols and Schemes,1,0.2379
+union,BFull,8,Sustainable Adoption and Firm Performance,4,0.7338
+union,BFull,9,"Trust, Transparency and Sector Applications",2,0.6089
+union,BFull,10,"Governance, Capabilities and Ecosystems",11,0.6615
+union,BFull,11,"NFTs, Marketing and Research Agenda",7,0.5032
+union,BFull,12,"Risk Management, Accounting and Credit",10,0.2147
+intersection,A,1,Empirical Market and Disclosure Effects,1,0.1495
+intersection,A,2,Supply Chain Operations and Integration,6,0.7266
+intersection,A,3,"FinTech, Payments and Financial Markets",9,0.2636
+intersection,A,4,Pricing and Channel Strategy,8,0.7582
+intersection,A,5,System Architecture and Security Design,3,0.5617
+intersection,A,6,Cryptocurrency Markets and Token Pricing,4,0.6674
+intersection,A,7,Smart Contract Protocols and Schemes,7,0.3238
+intersection,A,8,Sustainable Adoption and Firm Performance,11,0.5101
+intersection,A,9,"Trust, Transparency and Sector Applications",12,0.6184
+intersection,A,10,"Governance, Capabilities and Ecosystems",2,0.3598
+intersection,A,11,"NFTs, Marketing and Research Agenda",5,0.4389
+intersection,A,12,"Risk Management, Accounting and Credit",10,0.0747
+intersection,B500,1,Empirical Market and Disclosure Effects,12,0.1736
+intersection,B500,2,Supply Chain Operations and Integration,4,0.6573
+intersection,B500,3,"FinTech, Payments and Financial Markets",10,0.5507
+intersection,B500,4,Pricing and Channel Strategy,6,0.7302
+intersection,B500,5,System Architecture and Security Design,11,0.7202
+intersection,B500,6,Cryptocurrency Markets and Token Pricing,8,0.7978
+intersection,B500,7,Smart Contract Protocols and Schemes,9,0.4226
+intersection,B500,8,Sustainable Adoption and Firm Performance,5,0.8058
+intersection,B500,9,"Trust, Transparency and Sector Applications",7,0.1811
+intersection,B500,10,"Governance, Capabilities and Ecosystems",1,0.6107
+intersection,B500,11,"NFTs, Marketing and Research Agenda",2,0.6764
+intersection,B500,12,"Risk Management, Accounting and Credit",3,0.0628
+intersection,B1000,1,Empirical Market and Disclosure Effects,5,0.2669
+intersection,B1000,2,Supply Chain Operations and Integration,8,0.7177
+intersection,B1000,3,"FinTech, Payments and Financial Markets",1,0.415
+intersection,B1000,4,Pricing and Channel Strategy,7,0.7433
+intersection,B1000,5,System Architecture and Security Design,12,0.7568
+intersection,B1000,6,Cryptocurrency Markets and Token Pricing,2,0.7406
+intersection,B1000,7,Smart Contract Protocols and Schemes,4,0.4071
+intersection,B1000,8,Sustainable Adoption and Firm Performance,11,0.6362
+intersection,B1000,9,"Trust, Transparency and Sector Applications",3,0.1551
+intersection,B1000,10,"Governance, Capabilities and Ecosystems",6,0.558
+intersection,B1000,11,"NFTs, Marketing and Research Agenda",10,0.5314
+intersection,B1000,12,"Risk Management, Accounting and Credit",9,0.3264
+intersection,BFull,1,Empirical Market and Disclosure Effects,9,0.0266
+intersection,BFull,2,Supply Chain Operations and Integration,8,0.7576
+intersection,BFull,3,"FinTech, Payments and Financial Markets",12,0.0133
+intersection,BFull,4,Pricing and Channel Strategy,3,0.8981
+intersection,BFull,5,System Architecture and Security Design,5,0.5624
+intersection,BFull,6,Cryptocurrency Markets and Token Pricing,6,0.7233
+intersection,BFull,7,Smart Contract Protocols and Schemes,1,0.2635
+intersection,BFull,8,Sustainable Adoption and Firm Performance,4,0.7483
+intersection,BFull,9,"Trust, Transparency and Sector Applications",2,0.6189
+intersection,BFull,10,"Governance, Capabilities and Ecosystems",11,0.6669
+intersection,BFull,11,"NFTs, Marketing and Research Agenda",7,0.5155
+intersection,BFull,12,"Risk Management, Accounting and Credit",10,0.2186

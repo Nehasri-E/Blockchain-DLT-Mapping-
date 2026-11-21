@@ -1,0 +1,40 @@
+contrast,pair,mean_matched_cosine
+"noise floor (B250 vs B250, seed varies)",42-7,0.6061
+"noise floor (B250 vs B250, seed varies)",42-2024,0.513
+"noise floor (B250 vs B250, seed varies)",42-123,0.5173
+"noise floor (B250 vs B250, seed varies)",42-777,0.5999
+"noise floor (B250 vs B250, seed varies)",42-31337,0.5094
+"noise floor (B250 vs B250, seed varies)",7-2024,0.5315
+"noise floor (B250 vs B250, seed varies)",7-123,0.6118
+"noise floor (B250 vs B250, seed varies)",7-777,0.6045
+"noise floor (B250 vs B250, seed varies)",7-31337,0.5807
+"noise floor (B250 vs B250, seed varies)",2024-123,0.5433
+"noise floor (B250 vs B250, seed varies)",2024-777,0.5786
+"noise floor (B250 vs B250, seed varies)",2024-31337,0.5124
+"noise floor (B250 vs B250, seed varies)",123-777,0.5846
+"noise floor (B250 vs B250, seed varies)",123-31337,0.5552
+"noise floor (B250 vs B250, seed varies)",777-31337,0.5663
+"cap effect (B250 vs A, seed matched)",seed 42,0.4521
+"cap effect (B250 vs A, seed matched)",seed 7,0.4553
+"cap effect (B250 vs A, seed matched)",seed 2024,0.5145
+"cap effect (B250 vs A, seed matched)",seed 123,0.5132
+"cap effect (B250 vs A, seed matched)",seed 777,0.5235
+"cap effect (B250 vs A, seed matched)",seed 31337,0.5349
+"cap effect (B250 vs B500, seed matched)",seed 42,0.5316
+"cap effect (B250 vs B500, seed matched)",seed 7,0.6125
+"cap effect (B250 vs B500, seed matched)",seed 2024,0.5409
+"cap effect (B250 vs B500, seed matched)",seed 123,0.6203
+"cap effect (B250 vs B500, seed matched)",seed 777,0.5723
+"cap effect (B250 vs B500, seed matched)",seed 31337,0.5286
+"cap effect (B250 vs B1000, seed matched)",seed 42,0.5116
+"cap effect (B250 vs B1000, seed matched)",seed 7,0.4954
+"cap effect (B250 vs B1000, seed matched)",seed 2024,0.5062
+"cap effect (B250 vs B1000, seed matched)",seed 123,0.5329
+"cap effect (B250 vs B1000, seed matched)",seed 777,0.5298
+"cap effect (B250 vs B1000, seed matched)",seed 31337,0.5174
+"cap effect (B250 vs BFull, seed matched)",seed 42,0.4798
+"cap effect (B250 vs BFull, seed matched)",seed 7,0.5683
+"cap effect (B250 vs BFull, seed matched)",seed 2024,0.491
+"cap effect (B250 vs BFull, seed matched)",seed 123,0.4778
+"cap effect (B250 vs BFull, seed matched)",seed 777,0.5743
+"cap effect (B250 vs BFull, seed matched)",seed 31337,0.5652

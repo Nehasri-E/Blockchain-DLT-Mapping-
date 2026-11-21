@@ -1,0 +1,13 @@
+Topic,Label,Slope_per_year,p_value,Start_2019,End_2025,Direction,Significant
+4,Pricing and Channel Strategy,0.01872,0.0076,0.0533,0.163,rising,True
+8,Sustainable Adoption and Firm Performance,0.01098,0.0001,0.0726,0.1398,rising,True
+11,"NFTs, Marketing and Research Agenda",0.00325,0.4014,0.0626,0.0775,rising,False
+3,"FinTech, Payments and Financial Markets",-0.00028,0.7926,0.0299,0.0337,declining,False
+1,Empirical Market and Disclosure Effects,-0.00043,0.736,0.0768,0.0817,declining,False
+6,Cryptocurrency Markets and Token Pricing,-0.00142,0.69,0.068,0.074,declining,False
+12,"Risk Management, Accounting and Credit",-0.00209,0.2284,0.0274,0.0168,declining,False
+2,Supply Chain Operations and Integration,-0.00244,0.6117,0.1649,0.1377,declining,False
+10,"Governance, Capabilities and Ecosystems",-0.00383,0.5869,0.1613,0.1103,declining,False
+5,System Architecture and Security Design,-0.00621,0.1574,0.053,0.0393,declining,False
+7,Smart Contract Protocols and Schemes,-0.00781,0.0075,0.091,0.0534,declining,True
+9,"Trust, Transparency and Sector Applications",-0.00844,0.0161,0.1393,0.0728,declining,True

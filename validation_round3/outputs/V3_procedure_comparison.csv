@@ -1,0 +1,7 @@
+procedure,valid_p_value,n_significant_after_fdr,topics
+OLS-7 (R1),True,4,"T4, T7, T8, T9"
+WLS-7 (R1),True,1,T8
+Theil-Sen (R1),True,4,"T4, T7, T8, T9"
+"R2 journal bootstrap tail proportion (WITHDRAWN, not a p-value)",False,1,T4
+"Wild cluster bootstrap-t, null imposed (VALID)",True,0,
+Within-journal year permutation (VALID),True,4,"T4, T5, T7, T8"

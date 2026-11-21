@@ -1,0 +1,4 @@
+k,n_pairs_identical,n_pairs_total,mean_matched_cosine,sd,min_matched_cosine,seeds_in_dominant_basin,n_seeds_in_dominant_basin,outlier_seeds
+4,15,15,1.0,0.0,1.0,"7, 42, 123, 777, 2024, 31337",6,
+6,10,15,0.9415,0.0856,0.8245,"7, 42, 123, 2024, 31337",5,777
+8,2,15,0.8865,0.0586,0.8221,"7, 31337",2,"42, 2024, 123, 777"

@@ -1,0 +1,39 @@
+check,status,detail
+72 baseline package files unmodified,PASS,
+no Round 1 file modified after Round 3 began,PASS,190 paths checked
+no Round 2 file modified after Round 3 began,PASS,746 paths checked
+reused Round 2 K=6 model is bit-identical to a fresh C3 refit,PASS,
+36 topics assembled from 6 seeds x K=6,PASS,
+LDA topic-word rows sum to 1,PASS,max dev 1.19e-07
+36x36 similarity matrix is square and symmetric,PASS,
+similarity diagonal is 1.0,PASS,
+"all similarities within [-1, 1]",PASS,
+no consensus topic contains two topics from one seed,PASS,[]
+"every consensus topic has exactly 6 members, one per seed",PASS,
+all 36 topics assigned exactly once,PASS,
+every seed-impure hierarchical cluster has a recorded diagnosis,PASS,"2 same-seed pairs examined, 0 judged justified"
+headline threshold is NOT the cluster-count maximiser,PASS,"headline 0.55 gives 6 multi-seed clusters; the maximiser is 0.8 with 8. The conservative point was chosen, not the permissive one."
+headline threshold yields the FEWEST qualifying themes on the plateau,PASS,"1 qualifying at 0.55; up to 3 at more permissive thresholds, which are reported rather than adopted"
+headline threshold is above the chance similarity level,PASS,threshold 0.55 vs chance 0.3452
+"NMF uses 6 initialisations at each of K=4,6,8",PASS,
+"NMF initialisation is random, not deterministic nndsvd",PASS,
+all NMF fits converged before max_iter,PASS,max iters used 688 of 1000
+"NMF consensus groups are init-pure, 6 members each",PASS,
+LDA and NMF aligned by L2-normalised cosine on a shared vocabulary,PASS,
+crosswalk matrix is 6x6 over the shared vocabulary,PASS,
+crosswalk assignment is one-to-one,PASS,
+"convergent validity requires words AND papers, not cosine alone",PASS,
+Round 2 bootstrap tail proportion retained but labelled withdrawn,PASS,
+BH applied only to the two valid p-value families,PASS,
+all wild-bootstrap p-values are above the resampling floor,PASS,"min p 0.00980, floor 0.00010"
+CI exclusion of zero is reported separately from significance,PASS,2 CIs exclude zero but 0 are significant after FDR
+S2_supporting_seed_sensitivity.csv present,PASS,
+S3_journal_exclusion_sensitivity.csv present,PASS,
+S4_bfull_corpus_sensitivity.csv present,PASS,
+C4_threshold_sensitivity.csv present,PASS,
+"journal-exclusion refits cover drop of top 1, 3 and 5 journals",PASS,
+6 figures present,PASS,"G1_consensus_quality.png, G2_lda_vs_nmf_stability.png, G3_lda_nmf_crosswalk.png, G4_threshold_sensitivity.png, G5_sensitivity.png, G6_corrected_trend_inference.png"
+figure script loads no model objects,PASS,
+machine-readable CSV for every major comparison,PASS,25 CSVs
+ROUND3_METHODS.md present,PASS,
+ROUND3_FINDINGS.md present,PASS,

@@ -1,0 +1,13 @@
+topic,label,durbin_watson,shapiro_p,n_influential_years,max_cooks,influential_years,residual_normality_ok,autocorrelation_flag
+1,Empirical Market and Disclosure Effects,2.406,0.4715,1,0.704,2019,True,False
+2,Supply Chain Operations and Integration,2.389,0.5308,1,0.814,2019,True,False
+3,"FinTech, Payments and Financial Markets",2.073,0.7265,1,1.5144,2019,True,False
+4,Pricing and Channel Strategy,2.653,0.1939,0,0.5269,none,True,False
+5,System Architecture and Security Design,2.635,0.157,2,1.1093,"2019, 2020",True,False
+6,Cryptocurrency Markets and Token Pricing,1.745,0.2931,1,1.2132,2019,True,False
+7,Smart Contract Protocols and Schemes,2.135,0.7423,1,0.7386,2020,True,False
+8,Sustainable Adoption and Firm Performance,3.253,0.5705,0,0.2907,none,True,True
+9,"Trust, Transparency and Sector Applications",1.276,0.9799,1,1.5145,2019,True,False
+10,"Governance, Capabilities and Ecosystems",2.241,0.9426,2,1.7113,"2019, 2020",True,False
+11,"NFTs, Marketing and Research Agenda",1.966,0.296,1,0.6042,2025,True,False
+12,"Risk Management, Accounting and Credit",3.213,0.3635,0,0.5109,none,True,True

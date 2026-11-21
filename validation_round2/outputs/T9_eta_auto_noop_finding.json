@@ -1,0 +1,11 @@
+{
+  "finding": "In gensim 4.4.0, eta='auto' is a no-op for fitted topic-word distributions.",
+  "mechanism": "LdaState.get_lambda() = state.eta + state.sstats determines the topics. init_dir_prior returns 1.0/num_topics for both 'auto' and 'symmetric', so state.eta is identical. LdaModel.update_eta writes to model.eta only and never to state.eta, so the learned prior never affects the topics.",
+  "evidence": {
+    "auto_vs_symmetric_max_topic_diff": 0.0,
+    "auto_vs_explicit_0.01_max_topic_diff": 0.03409,
+    "expElogbeta_bit_identical_auto_vs_symmetric": true,
+    "what_does_change": "log_perplexity only, because the bound uses model.eta"
+  },
+  "consequence_for_baseline": "The published model's eta='auto' is equivalent to eta='symmetric'. The 312-model baseline tuning grid varied eta over {symmetric, auto}, so that grid dimension produced identical topics and differed only in reported perplexity. The effective grid was half its nominal size."
+}

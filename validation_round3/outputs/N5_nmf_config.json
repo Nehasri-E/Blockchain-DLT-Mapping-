@@ -1,0 +1,20 @@
+{
+  "vectoriser": "TfidfVectorizer(norm=l2, sublinear_tf=True) on the gensim B250 dictionary vocabulary, identical tokens to LDA",
+  "nmf": {
+    "init": "random",
+    "solver": "cd",
+    "beta_loss": "frobenius",
+    "max_iter": 1000,
+    "tol": 1e-05,
+    "random_states": [
+      42,
+      7,
+      2024,
+      123,
+      777,
+      31337
+    ]
+  },
+  "why_random_init": "nndsvd is deterministic from the data, so it would report perfect stability by construction",
+  "comparison_rule": "L2-normalised cosine over the shared vocabulary; raw LDA probabilities and NMF loadings are never compared directly"
+}

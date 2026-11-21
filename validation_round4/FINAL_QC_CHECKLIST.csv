@@ -1,0 +1,39 @@
+check,result,detail
+Every findings claim maps to a shipped source file,PASS,"72 claims, 19 distinct source files"
+Machine-checkable claims match their source files,PASS,"71 verified, 0 mismatched, 1 documented but not machine-checkable"
+Round 3 audit covers 31 statements,PASS,31 rows
+All three Round 3 corrections concern NMF identifiability,PASS,INCORRECT; INCORRECT (over-generalised from one pair); OVERSTATED
+Corrected K=6 figure is not 1.000000,PASS,K=6 mean matched cosine 0.9415
+NMF prevalence is not the degenerate 1/K,PASS,"range 0.1547 to 0.1775, 1/K would be 0.1667"
+Prevalence shares sum to 1,PASS,sum 1.0000
+Outlier-seed consensus agrees with full consensus on all topics,PASS,min 0.9894
+Every validated theme has convergent validity,PASS,3 themes
+Every validated theme clears the term-lift floor of 2.0,PASS,min lift 2.1
+No non-theme component is described as validated,PASS,"3 components, each with a stated reason"
+Primary temporal procedure yields no significant trend,PASS,0 of 12 after BH
+CI exclusion and significance are reported separately,PASS,"2 CIs exclude zero, 0 significant"
+The two temporal procedures are reported as different nulls,PASS,4 vs 0 significant; both columns shipped
+Author disambiguation declared infeasible,PASS,"no ORCID, affiliation or email field in the dataset"
+Author ambiguity is quantified rather than asserted,PASS,16.3% of mentions
+"Post-hoc decisions are disclosed, not hidden",PASS,13 of 30 decisions made after seeing results
+The primary-model switch is recorded as post-hoc,PASS,NMF adoption marked after_seeing_results
+Threshold contingency of the theme count is documented,PASS,"1 theme under all four criteria, 2 under the three pre-specified"
+Round 4 manifest written,PASS,"57 files, 6.7 MB"
+FINAL_METHODS.md present and non-trivial,PASS,11446 bytes
+FINAL_FINDINGS.md present and non-trivial,PASS,13655 bytes
+FINAL_LIMITATIONS.md present and non-trivial,PASS,8360 bytes
+FINAL_REPRODUCTION_GUIDE.md present and non-trivial,PASS,11370 bytes
+Table1 present,PASS,Table1_corpus_summary.csv
+Table2 present,PASS,Table2_final_themes.csv
+Table3 present,PASS,Table3_round3_corrections.csv
+Table4 present,PASS,Table4_temporal_inference.csv
+Table5 present,PASS,Table5_methodological_audit.csv
+Table6 present,PASS,Table6_author_feasibility.csv
+Table7 present,PASS,Table7_claim_to_file.csv
+Figure1 present,PASS,Figure1_corpus_overview.png (358 KB)
+Figure2 present,PASS,Figure2_nmf_topic_map.png (415 KB)
+Figure3 present,PASS,Figure3_prevalence_distribution.png (219 KB)
+Figure4 present,PASS,Figure4_theme_keywords.png (274 KB)
+Figure5 present,PASS,Figure5_cross_method_validation.png (235 KB)
+Figure6 present,PASS,Figure6_robustness.png (155 KB)
+Supplementary material carries all Round 1-3 figures,PASS,18 figures

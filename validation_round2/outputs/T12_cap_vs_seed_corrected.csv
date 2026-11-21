@@ -1,0 +1,5 @@
+comparison,n_seeds,mean_noise_s,mean_cap_s,mean_paired_difference,boot_ci_low,boot_ci_high,ci_excludes_zero,cohens_dz,n_seeds_favouring_noise,exact_signflip_p_one_sided,exact_signflip_p_two_sided,n_permutations,min_attainable_p_one_sided
+B250 vs A,6,0.561,0.4989,0.0621,0.0301,0.0961,True,1.347,6,0.01562,0.03125,64,0.01562
+B250 vs B500,6,0.561,0.5677,-0.0067,-0.0311,0.0128,False,-0.223,3,0.67188,0.6875,64,0.01562
+B250 vs B1000,6,0.561,0.5155,0.0454,0.0302,0.0653,True,1.812,6,0.01562,0.03125,64,0.01562
+B250 vs BFull,6,0.561,0.5261,0.0349,0.0065,0.0622,True,0.896,5,0.0625,0.125,64,0.01562

@@ -1,0 +1,32 @@
+original_statement,actual_value,status,corrected_statement,source_file
+NMF achieves matched cosine 1.000000 at both K=4 and K=6,"K=4: 1.0000 (15/15 pairs identical). K=6: 0.9415 mean, 10/15 pairs identical, 5 pairs involving seed 777 at ~0.8245",INCORRECT,"NMF converges to an identical solution from all six initialisations at K=4 (15/15 pairs at cosine 1.000000). At K=6 it has a dominant basin rather than a unique optimum: five of six initialisations (42, 7, 2024, 123, 31337) converge identically, while seed 777 finds a different optimum, giving a mean matched cosine of 0.9415 (sd 0.0856).",N2_nmf_stability_by_k.csv; F1_nmf_pairwise_detail.csv
+matched cosine 1.000000 at K=4 and K=6 (raw H differs in magnitude only),"true at K=4 only; at K=6 this held for the single pair 42 vs 7 that was spot-checked, both of which lie in the dominant basin",INCORRECT (over-generalised from one pair),"The spot-check compared seeds 42 and 7, which both lie in the dominant basin. Generalising from that one pair to all 15 was an error.",F1_nmf_pairwise_detail.csv
+The TF-IDF Frobenius objective is effectively globally identifiable on this corpus,"K=4: yes (15/15). K=6: 10/15 pairs identical, one outlier basin. K=8: 2/15 pairs identical",OVERSTATED,The TF-IDF Frobenius objective is globally identifiable at K=4 and has a dominant basin at K=6 (5 of 6 initialisations). Identifiability degrades with K: at K=8 only 2 of 15 pairs converge identically.,F2_nmf_basin_structure.csv
+NMF K=4 matched cosine reported as 1.000,1.0000,CORRECT,NMF K=4 matched cosine reported as 1.000,N2_nmf_stability_by_k.csv
+NMF K=6 matched cosine reported as 0.942,0.9415,CORRECT,NMF K=6 matched cosine reported as 0.942,N2_nmf_stability_by_k.csv
+NMF K=8 matched cosine reported as 0.887,0.8865,CORRECT,NMF K=8 matched cosine reported as 0.887,N2_nmf_stability_by_k.csv
+CT1 mean within-cluster cosine 0.850,0.8499,CORRECT,CT1 mean within-cluster cosine 0.850,C10 (Round 3 outputs)
+CT1 document Jaccard 0.361,0.3611,CORRECT,CT1 document Jaccard 0.361,C10 (Round 3 outputs)
+CT1 anchor agreement 0.800,0.800,CORRECT,CT1 anchor agreement 0.800,C10 (Round 3 outputs)
+CT4 min within-cosine 0.468,0.4677,CORRECT,CT4 min within-cosine 0.468,C10 (Round 3 outputs)
+CT4 fails by 0.032,0.0323,CORRECT,CT4 fails by 0.032,C10 (Round 3 outputs)
+CT2 term lift 1.88,1.88,CORRECT,CT2 term lift 1.88,C10 (Round 3 outputs)
+overall anchor agreement 0.476,0.4758,CORRECT,overall anchor agreement 0.476,C12 (Round 3 outputs)
+chance cross-seed cosine 0.345,0.3452,CORRECT,chance cross-seed cosine 0.345,C7 (Round 3 outputs)
+NMF 5 of 6 topics qualify,5 of 6,CORRECT,NMF 5 of 6 topics qualify,N3 (Round 3 outputs)
+LDA 1 of 6 topics qualifies,1 of 6,CORRECT,LDA 1 of 6 topics qualifies,C10 (Round 3 outputs)
+CT1/N2 cosine 0.878,0.8777,CORRECT,CT1/N2 cosine 0.878,X2 (Round 3 outputs)
+CT1/N2 paper overlap 0.613,0.613,CORRECT,CT1/N2 paper overlap 0.613,X2 (Round 3 outputs)
+CT2/N1 agree on 2 of 25 papers,2 of 25,CORRECT,CT2/N1 agree on 2 of 25 papers,X2 (Round 3 outputs)
+CT4 journal robustness min 0.941,0.9406,CORRECT,CT4 journal robustness min 0.941,S3 (Round 3 outputs)
+CT1 journal robustness min 0.884,0.8836,CORRECT,CT1 journal robustness min 0.884,S3 (Round 3 outputs)
+CT1 BFull cosine 0.935,0.9347,CORRECT,CT1 BFull cosine 0.935,S4 (Round 3 outputs)
+T4 wild bootstrap raw p 0.0098,0.0098,CORRECT,T4 wild bootstrap raw p 0.0098,V1 (Round 3 outputs)
+T4 wild bootstrap q 0.118,0.1176,CORRECT,T4 wild bootstrap q 0.118,V1 (Round 3 outputs)
+T8 wild bootstrap raw p 0.043,0.0434,CORRECT,T8 wild bootstrap raw p 0.043,V1 (Round 3 outputs)
+zero topics significant under wild bootstrap after FDR,0,CORRECT,zero topics significant under wild bootstrap after FDR,V1 (Round 3 outputs)
+two CR1 CIs exclude zero,2,CORRECT,two CR1 CIs exclude zero,V1 (Round 3 outputs)
+headline threshold 0.55 gives 1 qualifying theme,1,CORRECT,headline threshold 0.55 gives 1 qualifying theme,C13 (Round 3 outputs)
+threshold 0.80 gives 3 qualifying themes,3,CORRECT,threshold 0.80 gives 3 qualifying themes,C13 (Round 3 outputs)
+LDA K=6 ARI 0.285 vs NMF 0.749,"LDA 0.2853, NMF 0.7487",CORRECT,LDA K=6 ARI 0.285 vs NMF 0.749,T11 (Round 2); N2 (Round 3)
+four topics survive FDR under within-journal permutation,"4 topics: T4, T5, T7, T8",CORRECT,four topics survive FDR under within-journal permutation,V1
